@@ -3,6 +3,21 @@ import matplotlib.pyplot as plt
 from odeintw import odeintw # This library is downloaded from https://github.com/WarrenWeckesser/odeintw
 from scipy.linalg import hadamard
 import numba as nb
+import time
+
+# Wrapper for timing
+def timeit(method):
+    def timed(*args, **kw):
+        ts = time.time()
+        result = method(*args, **kw)
+        te = time.time()
+        if 'log_time' in kw:
+            name = kw.get('log_name', method.__name__.upper())
+            kw['log_time'][name] = int((te - ts) * 1000)
+        else:
+            print('{}  {:10.2f} ms'.format(method.__name__, (te - ts) * 1000))
+        return result
+    return timed
 
 #**** Constants ****#
 regularizationConstant=10**-3
@@ -21,6 +36,7 @@ def norm(l):
 """
 
 """
+@timeit
 def factor(N, T=100000): # Integer to factor
     assert N>0 #Must be a positive one
     print("Factoring N={}".format(N))
@@ -77,8 +93,8 @@ def factor(N, T=100000): # Integer to factor
     t=np.linspace(0,T,num=steps) #So we subdivide the inverval into *steps* pieces
 
     res=odeintw(H,v0,t) # And we integrate the differential multi-dimensional equation.
-    print(res[0])
-    print(np.linalg.norm(res[0]))
+    #print(res[0])
+    #print(np.linalg.norm(res[0]))
     pos=np.argmax(np.array([np.linalg.norm(ress) for ress in res[-1]]))
 
     x,y=pos//2**(dim//2), pos%2**(dim//2) #We calculate the divisors from the found eigenstate.
@@ -92,15 +108,15 @@ def factor(N, T=100000): # Integer to factor
         print(energies[-1])
 
     def plotThings(res,t):
-        my_xticks = ["({},{})".format(i//2**(dim//2),i%2**(dim//2) ) for i in range(2**dim)]
-        plt.xticks(range(2**dim), my_xticks)
+        #my_xticks = ["({},{})".format(i//2**(dim//2),i%2**(dim//2) ) for i in range(2**dim)]
+        #plt.xticks(range(2**dim), my_xticks)
         plt.plot(range(2**dim), [np.abs(x) for x in res],'bo')
         plt.savefig("N={},T={}.eps".format(N,T))
         plt.show()
 
     def plotNorm(res):
         norms=[np.linalg.norm(i) for i in res]
-        print(norms)
+        #print(norms)
         plt.plot(t,norms)
         plt.show()
 
@@ -111,19 +127,9 @@ def factor(N, T=100000): # Integer to factor
 
     return x,y #We return both divisors.
 
-for T in [10,100,1000,10000,100000]:
+for T in [10000]:
     N=3
     x,y=factor(N,T=T)
     assert x*y==N #So we check that our algorithm calculated the correct divisors for N
     print("Worked! {}={}x{}".format(N,x,y))
     print()
-
-
-
-
-
-
-
-
-
-
