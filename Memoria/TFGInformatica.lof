@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1.1}{\ignorespaces Vista cenital del modelo conceptual del experimento de Young.\relax }}{2}{figure.caption.1}
+\contentsline {figure}{\numberline {1.1.2}{\ignorespaces En la gr\IeC {\'a}fica $a)$, el patr\IeC {\'o}n de incidencia en la pantalla fotosensible para un comportamiento corpuscular. En $b)$, el esperado para el comportamiento ondulatorio.\relax }}{2}{figure.caption.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.3.1}{\ignorespaces Representaci\IeC {\'o}n de algunas de las puertas l\IeC {\'o}gicas mencionadas para un solo qubit.\relax }}{14}{figure.caption.3}
+\contentsline {figure}{\numberline {2.3.2}{\ignorespaces Representaci\IeC {\'o}n de algunas de las puertas l\IeC {\'o}gicas para m\IeC {\'u}ltiples qubit.\relax }}{14}{figure.caption.4}
+\contentsline {figure}{\numberline {2.4.1}{\ignorespaces Diagrama para el operador de medici\IeC {\'o}n en un circuito cu\IeC {\'a}ntico.\relax }}{15}{figure.caption.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1.1}{\ignorespaces Circuito cu\IeC {\'a}ntico para el algoritmo QFT.\relax }}{21}{figure.caption.6}
+\contentsline {figure}{\numberline {3.1.2}{\ignorespaces M\IeC {\'o}dulo de la integral de la ecuaci\IeC {\'o}n \ref {eqIntegral} para valores de $\frac {\{rz\}}{r}$ entre $-1/2$ y $1/2$.\relax }}{24}{figure.caption.7}
+\contentsline {figure}{\numberline {3.1.3}{\ignorespaces Iteraciones necesarias del algoritmo de la b\IeC {\'u}squeda del orden para que la probabilidad de encontrar el valor correcto de $r$ sea mayor que $2/3$.\relax }}{26}{figure.caption.8}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.4.1}{\ignorespaces Estado de superposici\IeC {\'o}n para cada qubit soluci\IeC {\'o}n con cada \IeC {\'\i }ndice $k$ numerado tal que $k\sim (k\ \mathbf {div}\ 2^n,k\ \mathbf {mod}\ 2^n)$ y valor de la energ\IeC {\'\i }a para distintos rangos de integraci\IeC {\'o}n en el caso $N=3$, $\Omega =10^{-3}$.\relax }}{37}{figure.caption.9}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.3.1}{\ignorespaces Circuito cu\IeC {\'a}ntico para la realizaci\IeC {\'o}n de la teleportaci\IeC {\'o}n.\relax }}{47}{figure.caption.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.6.1}{\ignorespaces Posible relaci\IeC {\'o}n entre $\PP $, $\BQP $, $\NP $ y $\PSPACE $\relax }}{56}{figure.caption.12}
+\contentsline {figure}{\numberline {D.6.2}{\ignorespaces Jerarqu\IeC {\'\i }a de inclusi\IeC {\'o}n conocida para la clase $\BQP $\relax }}{56}{figure.caption.13}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {F.0.1}{\ignorespaces Probabilidades de obtener un valor $z$ al medir el primer registro tras la QFT para $n=21$ y $a=10$.\relax }}{61}{figure.caption.18}
+\contentsline {figure}{\numberline {F.0.2}{\ignorespaces Probabilidades mayores que $10^{-3}$ de los estados de la superposic\IeC {\'o}n para la QFT con $n=21$, $a=10$.\relax }}{61}{figure.caption.19}

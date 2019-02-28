@@ -1,0 +1,11 @@
+Package "yinit-as" contains a modified driver file, yinitas.mf,
+and a LaTeX file initials.sty by Andreas Schrell, which are
+additions to Yannis Haralambous' yinit fonts.
+
+Versions of included files:
+  initials.sty   V. 1.1 of 1994-03-27
+  yinitas.mf   patched     1994-03-27
+
+Please see CTAN:/fonts/gothic/yinit/README for more information.
+
+   P. R.-P. for the CTAN team, 2015-01-10

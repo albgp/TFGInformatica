@@ -1,0 +1,7 @@
+YANNIS.ZIP
+	Old-German Fonts von Yannis Haralambous. Initialen-Font,
+	Schwabacher, Gothic und Fraktur (Textura). Erste Sahne!
+
+YINITAS.ZIP
+	gepatchte Version von Yannis' Fraktur-Initialen. In dieser
+	Version haben alle Buchstaben die richtigen Ausma"se.

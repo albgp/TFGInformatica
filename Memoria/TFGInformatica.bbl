@@ -1,0 +1,622 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{GGABGS12}
+
+\bibitem[Aar03]{aaronson2003prime}
+{\sc Aaronson, S.}
+\newblock The prime facts: From euclid to aks.
+\newblock {\em Lecture Notes}, 2003.
+
+\bibitem[{Aar}09]{2009arXiv0910.4698A}
+{\sc {Aaronson}, S.}
+\newblock {BQP and the Polynomial Hierarchy}.
+\newblock {\em ArXiv e-prints}, October 2009.
+
+\bibitem[Aar13]{book:929225}
+{\sc Aaronson, S.}
+\newblock {\em Quantum Computing since Democritus}.
+\newblock Cambridge University Press, 2013.
+
+\bibitem[AB09]{arora2009computational}
+{\sc Arora, S., y Barak, B.}
+\newblock {\em Computational complexity: a modern approach}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem[ACdF89]{APOLLONI1989233}
+{\sc Apolloni, B., Carvalho, C., y de~Falco, D.}
+\newblock Quantum stochastic optimization.
+\newblock {\em Stochastic Processes and their Applications}, 33(2):233 -- 244,
+  1989.
+
+\bibitem[ADH97]{adleman1997quantum}
+{\sc Adleman, L.~M., DeMarrais, J., y Huang, M.-D.~A.}
+\newblock Quantum computability.
+\newblock {\em SIAM Journal on Computing}, 26(5):1524--1540, 1997.
+
+\bibitem[{Aha}03]{2003quant.ph..1040A}
+{\sc {Aharonov}, D.}
+\newblock {A Simple Proof that Toffoli and Hadamard are Quantum Universal}.
+\newblock {\em eprint arXiv:quant-ph/0301040}, January 2003.
+
+\bibitem[AKG05]{aaronson2005complexity}
+{\sc Aaronson, S., Kuperberg, G., y Granade, C.}
+\newblock The complexity zoo, 2005.
+
+\bibitem[AKS04]{zbMATH02157791}
+{\sc {Agrawal}, M., {Kayal}, N., y {Saxena}, N.}
+\newblock {PRIMES is in P.}
+\newblock {\em {Ann. Math. (2)}}, 160(2):781--793, 2004.
+
+\bibitem[AL18]{2018RvMP...90a5002A}
+{\sc {Albash}, T., y {Lidar}, D.~A.}
+\newblock {Adiabatic quantum computation}.
+\newblock {\em Reviews of Modern Physics}, 90(1):015002, January 2018.
+
+\bibitem[Ami09]{PhysRevLett.102.220401}
+{\sc Amin, M. H.~S.}
+\newblock Consistency of the adiabatic theorem.
+\newblock {\em Phys. Rev. Lett.}, 102:220401, Jun 2009.
+
+\bibitem[AvK{\etalchar{+}}04]{2004quant.ph..5098A}
+{\sc {Aharonov}, D., {van Dam}, W., {Kempe}, J., {Landau}, Z., {Lloyd}, S., y
+  {Regev}, O.}
+\newblock {Adiabatic Quantum Computation is Equivalent to Standard Quantum
+  Computation}.
+\newblock {\em eprint arXiv:quant-ph/0405098}, May 2004.
+
+\bibitem[AW09]{2009RSPSA.465..631A}
+{\sc {Aaronson}, S., y {Watrous}, J.}
+\newblock {Closed timelike curves make quantum and classical computing
+  equivalent}.
+\newblock {\em Proceedings of the Royal Society of London Series A},
+  465:631--647, February 2009.
+
+\bibitem[BB02]{brylinski2002universal}
+{\sc Brylinski, J.-L., y Brylinski, R.}
+\newblock Universal quantum gates.
+\newblock In {\em Mathematics of Quantum Computation}, pages 117--134. Chapman
+  and Hall/CRC, 2002.
+
+\bibitem[BBC{\etalchar{+}}93]{Bennett93teleportingan}
+{\sc Bennett, C.~H., Brassard, G., Crépeau, C., Jozsa, R., Peres, A., y
+  Wootters, W.~K.}
+\newblock Teleporting an unknown quantum state via dual classical and epr
+  channels, 1993.
+
+\bibitem[BBC{\etalchar{+}}95]{1995PhRvA..52.3457B}
+{\sc {Barenco}, A., {Bennett}, C., {Cleve}, R., {Divincenzo}, D., {Margolus},
+  N., {Shor}, P., {Sleator}, T., {Smolin}, J., y {Weinfurter}, H.}
+\newblock {Elementary gates for quantum computation}.
+\newblock 52:3457--3467, November 1995.
+
+\bibitem[BCDP96]{PhysRevA.54.1034}
+{\sc Beckman, D., Chari, A.~N., Devabhaktuni, S., y Preskill, J.}
+\newblock Efficient networks for quantum factoring.
+\newblock {\em Phys. Rev. A}, 54:1034--1063, Aug 1996.
+
+\bibitem[BCT{\etalchar{+}}14]{2014NaPho...8..775B}
+{\sc {Bussi{\`e}res}, F., {Clausen}, C., {Tiranov}, A., {Korzh}, B., {Verma},
+  V.~B., {Nam}, S.~W., {Marsili}, F., {Ferrier}, A., {Goldner}, P., {Herrmann},
+  H., {Silberhorn}, C., {Sohler}, W., {Afzelius}, M., y {Gisin}, N.}
+\newblock {Quantum teleportation from a telecom-wavelength photon to a
+  solid-state quantum memory}.
+\newblock {\em Nature Photonics}, 8:775--778, October 2014.
+
+\bibitem[{Bea}02]{2002quant.ph..5095B}
+{\sc {Beauregard}, S.}
+\newblock {Circuit for Shor's algorithm using 2n+3 qubits}.
+\newblock {\em eprint arXiv:quant-ph/0205095}, May 2002.
+
+\bibitem[BEKS17]{bezanson2017julia}
+{\sc Bezanson, J., Edelman, A., Karpinski, S., y Shah, V.~B.}
+\newblock Julia: A fresh approach to numerical computing.
+\newblock {\em SIAM review}, 59(1):65--98, 2017.
+
+\bibitem[Ben80]{Benioff1980}
+{\sc Benioff, P.}
+\newblock The computer as a physical system: A microscopic quantum mechanical
+  hamiltonian model of computers as represented by turing machines.
+\newblock {\em Journal of Statistical Physics}, 22(5):563--591, May 1980.
+
+\bibitem[Ber11]{bernstein2011post}
+{\sc Bernstein, D.~J.}
+\newblock Post-quantum cryptography.
+\newblock In {\em Encyclopedia of Cryptography and Security}, pages 949--950.
+  Springer, 2011.
+
+\bibitem[BF28]{Born1928}
+{\sc Born, M., y Fock, V.}
+\newblock Beweis des adiabatensatzes.
+\newblock {\em Zeitschrift f{\"u}r Physik}, 51(3):165--180, Mar 1928.
+
+\bibitem[Bha13]{bhatia2013matrix}
+{\sc Bhatia, R.}
+\newblock {\em Matrix analysis}, volume 169.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[BS08]{2008AmJPh..76..657B}
+{\sc {Benenti}, G., y {Strini}, G.}
+\newblock {Quantum simulation of the single-particle Schr{\"o}dinger equation}.
+\newblock {\em American Journal of Physics}, 76:657--662, July 2008.
+
+\bibitem[BV97]{doi:10.1137/S0097539796300921}
+{\sc Bernstein, E., y Vazirani, U.}
+\newblock Quantum complexity theory.
+\newblock {\em SIAM Journal on Computing}, 26(5):1411--1473, 1997.
+
+\bibitem[BZ10]{brent2010modern}
+{\sc Brent, R.~P., y Zimmermann, P.}
+\newblock {\em Modern computer arithmetic}, volume~18.
+\newblock Cambridge University Press, 2010.
+
+\bibitem[CD05]{book:9621}
+{\sc Chakrabarti, B.~K., y Das, A.}
+\newblock {\em Quantum Annealing and Other Optimization Methods}.
+\newblock Lecture Notes in Physics 679. Springer-Verlag Berlin Heidelberg, 1
+  edition, 2005.
+
+\bibitem[Chu36]{church1936unsolvable}
+{\sc Church, A.}
+\newblock An unsolvable problem of elementary number theory.
+\newblock {\em American journal of mathematics}, 58(2):345--363, 1936.
+
+\bibitem[CJL{\etalchar{+}}16]{cryptoeprint:2016:963}
+{\sc Costello, C., Jao, D., Longa, P., Naehrig, M., Renes, J., y Urbanik, D.}
+\newblock Efficient compression of sidh public keys.
+\newblock Cryptology ePrint Archive, Report 2016/963, 2016.
+\newblock \url{https://eprint.iacr.org/2016/963}.
+
+\bibitem[CT65]{10.2307/2003354}
+{\sc Cooley, J.~W., y Tukey, J.~W.}
+\newblock An algorithm for the machine calculation of complex fourier series.
+\newblock {\em Mathematics of Computation}, 19(90):297--301, 1965.
+
+\bibitem[DB24]{de1924recherches}
+{\sc De~Broglie, L.}
+\newblock {\em Recherches sur la th{\'e}orie des quanta}.
+\newblock PhD thesis, Migration-universit{\'e} en cours d'affectation, 1924.
+
+\bibitem[{Deu}85]{1985RSPSA.400...97D}
+{\sc {Deutsch}, D.}
+\newblock {Quantum theory, the Church-Turing principle and the universal
+  quantum computer}.
+\newblock {\em Proceedings of the Royal Society of London Series A},
+  400:97--117, July 1985.
+
+\bibitem[Deu89]{deutsch1989quantum}
+{\sc Deutsch, D.~E.}
+\newblock Quantum computational networks.
+\newblock {\em Proc. R. Soc. Lond. A}, 425(1868):73--90, 1989.
+
+\bibitem[Deu98]{deutsch1998fabric}
+{\sc Deutsch, D.}
+\newblock {\em The fabric of reality}.
+\newblock Penguin UK, 1998.
+
+\bibitem[DG27]{davisson1927diffraction}
+{\sc Davisson, C., y Germer, L.~H.}
+\newblock Diffraction of electrons by a crystal of nickel.
+\newblock {\em Physical review}, 30(6):705, 1927.
+
+\bibitem[DG15]{dewitt2015many}
+{\sc DeWitt, B.~S., y Graham, N.}
+\newblock {\em The many worlds interpretation of quantum mechanics}.
+\newblock Princeton University Press, 2015.
+
+\bibitem[DLP93]{10.2307/2152945}
+{\sc Damgård, I., Landrock, P., y Pomerance, C.}
+\newblock Average case error estimates for the strong probable prime test.
+\newblock {\em Mathematics of Computation}, 61(203):177--194, 1993.
+
+\bibitem[dlP06]{book:1483831}
+{\sc de~la Peña, L.}
+\newblock {\em Introducción a la mecánica cuántica}.
+\newblock 2006.
+
+\bibitem[DM04]{2004quant.ph..6210D}
+{\sc {De Raedt}, H., y {Michielsen}, K.}
+\newblock {Computational Methods for Simulating Quantum Computers}.
+\newblock {\em eprint arXiv:quant-ph/0406210}, June 2004.
+
+\bibitem[dT11]{2011arXiv1107.0794D}
+{\sc {de Falco}, D., y {Tamascelli}, D.}
+\newblock {An introduction to quantum annealing}.
+\newblock {\em ArXiv e-prints}, July 2011.
+
+\bibitem[EF04]{eastin2004q}
+{\sc Eastin, B., y Flammia, S.~T.}
+\newblock Q-circuit tutorial.
+\newblock {\em arXiv preprint quant-ph/0406003}, 2004.
+
+\bibitem[EPR35]{einstein1935can}
+{\sc Einstein, A., Podolsky, B., y Rosen, N.}
+\newblock Can quantum-mechanical description of physical reality be considered
+  complete?
+\newblock {\em Physical review}, 47(10):777, 1935.
+
+\bibitem[Eps12]{epstein2012adiabatic}
+{\sc Epstein, C.}
+\newblock Adiabatic quantum computing: An overview.
+\newblock {\em Quantum Complexity Theory}, 6(845):26, 2012.
+
+\bibitem[Fey82]{feynman1982simulating}
+{\sc Feynman, R.~P.}
+\newblock Simulating physics with computers.
+\newblock {\em International journal of theoretical physics}, 21(6-7):467--488,
+  1982.
+
+\bibitem[Fey86]{Feynman1986}
+{\sc Feynman, R.~P.}
+\newblock Quantum mechanical computers.
+\newblock {\em Foundations of Physics}, 16(6):507--531, Jun 1986.
+
+\bibitem[FGG{\etalchar{+}}09]{2009arXiv0909.4766F}
+{\sc {Farhi}, E., {Goldstone}, J., {Gosset}, D., {Gutmann}, S., {Meyer}, H.~B.,
+  y {Shor}, P.}
+\newblock {Quantum Adiabatic Algorithms, Small Gaps, and Different Paths}.
+\newblock {\em ArXiv e-prints}, September 2009.
+
+\bibitem[FGGS00]{2000quant.ph..1106F}
+{\sc {Farhi}, E., {Goldstone}, J., {Gutmann}, S., y {Sipser}, M.}
+\newblock {Quantum Computation by Adiabatic Evolution}.
+\newblock {\em eprint arXiv:quant-ph/0001106}, January 2000.
+
+\bibitem[FGS{\etalchar{+}}94]{FINNILA1994343}
+{\sc Finnila, A., Gomez, M., Sebenik, C., Stenson, C., y Doll, J.}
+\newblock Quantum annealing: A new method for minimizing multidimensional
+  functions.
+\newblock {\em Chemical Physics Letters}, 219(5):343 -- 348, 1994.
+
+\bibitem[FLS65]{feynman1965lectures}
+{\sc Feynman, R.~P., Leighton, R.~B., y Sands, M.}
+\newblock {\em Lectures on Physics, vol. III}.
+\newblock Addison-Wesley Reading, MA, 1965.
+
+\bibitem[Fol95]{book:145343}
+{\sc Folland, G.~B.}
+\newblock {\em A course in abstract harmonic analysis}.
+\newblock CRC Press BOCA. Raton, Florida, 1995.
+
+\bibitem[FR99]{FORTNOW1999240}
+{\sc Fortnow, L., y Rogers, J.}
+\newblock Complexity limitations on quantum computation.
+\newblock {\em Journal of Computer and System Sciences}, 59(2):240 -- 252,
+  1999.
+
+\bibitem[Gal12]{gallian2012contemporary}
+{\sc Gallian, J.}
+\newblock {\em Contemporary abstract algebra}.
+\newblock Nelson Education, 2012.
+
+\bibitem[GEdG13]{giannozzi2013numerical}
+{\sc Giannozzi, P., Ercolessi, F., y de~Gironcoli, S.}
+\newblock Numerical methods in quantum mechanics.
+\newblock {\em University of Udine}, 2013.
+
+\bibitem[{Ger}05]{2005AmJPh..73..521G}
+{\sc {Gerjuoy}, E.}
+\newblock {Shor's factoring algorithm and modern cryptography. An illustration
+  of the capabilities inherent in quantum computers}.
+\newblock {\em American Journal of Physics}, 73:521--540, June 2005.
+
+\bibitem[Gev18]{gevrey1918nature}
+{\sc Gevrey, M.}
+\newblock Sur la nature analytique des solutions des {\'e}quations aux
+  d{\'e}riv{\'e}es partielles. premier m{\'e}moire.
+\newblock 35:129--190, 1918.
+
+\bibitem[GGABGS12]{CuanticaI}
+{\sc García~González, P., Alvarellos~Bermejo, J.~E., y García~Sanz, J.~J.}
+\newblock {\em Física Cuántica I}.
+\newblock Editorial UNED, 2012.
+
+\bibitem[GLRS15]{2015arXiv151204965G}
+{\sc {Grassl}, M., {Langenberg}, B., {Roetteler}, M., y {Steinwandt}, R.}
+\newblock {Applying Grover's algorithm to AES: quantum resource estimates}.
+\newblock {\em ArXiv e-prints}, December 2015.
+
+\bibitem[{Gro}96]{1996quant.ph..5043G}
+{\sc {Grover}, L.~K.}
+\newblock {A fast quantum mechanical algorithm for database search}.
+\newblock {\em eprint arXiv:quant-ph/9605043}, May 1996.
+
+\bibitem[HD91]{1991inop.book.....H}
+{\sc {Heavens}, O.~S., y {Ditchburn}, R.~W.}
+\newblock {\em {Insight into optics.}}
+\newblock 1991.
+
+\bibitem[Hof80]{hofstadter1980godel}
+{\sc Hofstadter, D.~R.}
+\newblock {\em G{\"o}del, Escher, Bach}.
+\newblock Vintage Books New York, 1980.
+
+\bibitem[Hog96]{hogarth1996predictability}
+{\sc Hogarth, M.}
+\newblock {\em Predictability, computability, and spacetime}.
+\newblock PhD thesis, University of Cambridge, 1996.
+
+\bibitem[HW{\etalchar{+}}79]{hardy1979introduction}
+{\sc Hardy, G.~H., Wright, E.~M., et~al.}
+\newblock {\em An introduction to the theory of numbers}.
+\newblock Oxford university press, 1979.
+
+\bibitem[Irv03]{irving2003integers}
+{\sc Irving, R.~S.}
+\newblock {\em Integers, polynomials, and rings: a course in algebra}.
+\newblock Springer Science \& Business Media, 2003.
+
+\bibitem[Jaf96]{postus}
+{\sc Jaffe, R.~L.}
+\newblock Supplementary notes on dirac notation, quantum states, etc.
+\newblock 1996.
+
+\bibitem[JDF11]{jao2011towards}
+{\sc Jao, D., y De~Feo, L.}
+\newblock Towards quantum-resistant cryptosystems from supersingular elliptic
+  curve isogenies.
+\newblock In {\em International Workshop on Post-Quantum Cryptography}, pages
+  19--34. Springer, 2011.
+
+\bibitem[JRS07]{2007JMP....48j2111J}
+{\sc {Jansen}, S., {Ruskai}, M.-B., y {Seiler}, R.}
+\newblock {Bounds for the adiabatic approximation with applications to quantum
+  computation}.
+\newblock {\em Journal of Mathematical Physics}, 48(10):102111--102111, October
+  2007.
+
+\bibitem[Kat50]{doi:10.1143/JPSJ.5.435}
+{\sc Kato, T.}
+\newblock On the adiabatic theorem of quantum mechanics.
+\newblock {\em Journal of the Physical Society of Japan}, 5(6):435--439, 1950.
+
+\bibitem[KB00]{2000Natur.404..164K}
+{\sc {Kumar Pati}, A., y {Braunstein}, S.~L.}
+\newblock {Impossibility of deleting an unknown quantum state}.
+\newblock {\em Nature}, 404:164--165, March 2000.
+
+\bibitem[{Kie}18]{2018arXiv180802781K}
+{\sc {Kieu}, T.~D.}
+\newblock {A Factorisation Algorithm in Adiabatic Quantum Computation}.
+\newblock {\em ArXiv e-prints}, August 2018.
+
+\bibitem[Kit97]{0036-0279-52-6-R02}
+{\sc Kitaev, A.~Y.}
+\newblock Quantum computations: algorithms and error correction.
+\newblock {\em Russian Mathematical Surveys}, 52(6):1191, 1997.
+
+\bibitem[Knu68a]{knuth1968art}
+{\sc Knuth, D.}
+\newblock The art of computer programming 1: Fundamental algorithms.
+\newblock {\em MA: Addison-Wesley}, 30, 1968.
+
+\bibitem[Knu68b]{knuth1968art2}
+{\sc Knuth, D.}
+\newblock The art of computer programming 2: Seminumerical algorithms.
+\newblock {\em MA: Addison-Wesley}, 1968.
+
+\bibitem[Kre78]{kreyszig1978introductory}
+{\sc Kreyszig, E.}
+\newblock {\em Introductory functional analysis with applications}, volume~1.
+\newblock wiley New York, 1978.
+
+\bibitem[KWHZ82]{article}
+{\sc K.~Wootters, W., y H.~Zurek, W.}
+\newblock A single quantum cannot be cloned.
+\newblock 299:802, 10 1982.
+
+\bibitem[LV18]{LEE201892}
+{\sc Lee, J.~D., y Venkatesan, R.}
+\newblock Rigorous analysis of a randomised number field sieve.
+\newblock {\em Journal of Number Theory}, 187:92 -- 159, 2018.
+
+\bibitem[Mes64]{messiah1964quantum}
+{\sc Messiah, A.}
+\newblock {\em Quantum Mechanics [Vol 1-2].}
+\newblock 1964.
+
+\bibitem[Meu16]{cosasOrden}
+{\sc Meuser, D.}
+\newblock Number theory lecture notes. square roots of one (mod m).
+\newblock 2016.
+
+\bibitem[Mil76]{MILLER1976300}
+{\sc Miller, G.~L.}
+\newblock Riemann's hypothesis and tests for primality.
+\newblock {\em Journal of Computer and System Sciences}, 13(3):300 -- 317,
+  1976.
+
+\bibitem[Mon85]{Montgomery}
+{\sc Montgomery, P.~L.}
+\newblock Modular multiplication without trial division.
+\newblock {\em Mathematics of Computation}, 44(170):519--521, 1985.
+
+\bibitem[NC02]{nielsen2002quantum}
+{\sc Nielsen, M.~A., y Chuang, I.}
+\newblock Quantum computation and quantum information, 2002.
+
+\bibitem[Pap03]{papadimitriou2003computational}
+{\sc Papadimitriou, C.~H.}
+\newblock {\em Computational complexity}.
+\newblock John Wiley and Sons Ltd., 2003.
+
+\bibitem[PCP05]{pomerance2005prime}
+{\sc Pomerance, R., Crandall, R., y Pomerance, C.}
+\newblock {\em Prime Numbers: A Computational Perspective}.
+\newblock Lecture notes in statistics. Springer, 2005.
+
+\bibitem[PG12]{2012arXiv1207.0511P}
+{\sc {Pavlidis}, A., y {Gizopoulos}, D.}
+\newblock {Fast Quantum Modular Exponentiation Architecture for Shor's
+  Factorization Algorithm}.
+\newblock {\em ArXiv e-prints}, July 2012.
+
+\bibitem[Pre98]{preskill}
+{\sc Preskill, J.}
+\newblock {\em {Lecture Notes: Quantum Information and Computation}}.
+\newblock California Institute of Technology, 1998.
+
+\bibitem[PT04]{Peres:2002wx}
+{\sc Peres, A., y Terno, D.~R.}
+\newblock {Quantum information and relativity theory}.
+\newblock {\em Rev. Mod. Phys.}, 76:93--123, 2004.
+
+\bibitem[PZ03]{2003quant.ph..1141P}
+{\sc {Proos}, J., y {Zalka}, C.}
+\newblock {Shor's discrete logarithm quantum algorithm for elliptic curves}.
+\newblock {\em eprint arXiv:quant-ph/0301141}, January 2003.
+
+\bibitem[Rei96]{reif1996fisica}
+{\sc Reif, F.}
+\newblock {\em F{\'\i}sica estad{\'\i}stica}, volume~5.
+\newblock Revert{\'e}, 1996.
+
+\bibitem[RO15]{QuantumRyan}
+{\sc Ryan~O'Donnell, J.~W.}
+\newblock {\em Quantum Computation and Information. Lecture 23: Introduction to
+  Quantum Complexity Theory}.
+\newblock Carnegie Mellon University, 2015.
+
+\bibitem[Ros03]{rosen2003discrete}
+{\sc Rosen, K.}
+\newblock {\em Discrete Mathematics and Its Applications}.
+\newblock McGraw-Hill higher education. McGraw-Hill, 2003.
+
+\bibitem[RT18]{raz2018oracle}
+{\sc Raz, R., y Tal, A.}
+\newblock {Oracle Separation of BQP and PH.}
+\newblock 25:107, 2018.
+
+\bibitem[RXY{\etalchar{+}}17]{2017Natur.549...70R}
+{\sc {Ren}, J.-G., {Xu}, P., {Yong}, H.-L., {Zhang}, L., {Liao}, S.-K., {Yin},
+  J., {Liu}, W.-Y., {Cai}, W.-Q., {Yang}, M., {Li}, L., {Yang}, K.-X., {Han},
+  X., {Yao}, Y.-Q., {Li}, J., {Wu}, H.-Y., {Wan}, S., {Liu}, L., {Liu}, D.-Q.,
+  {Kuang}, Y.-W., {He}, Z.-P., {Shang}, P., {Guo}, C., {Zheng}, R.-H., {Tian},
+  K., {Zhu}, Z.-C., {Liu}, N.-L., {Lu}, C.-Y., {Shu}, R., {Chen}, Y.-A.,
+  {Peng}, C.-Z., {Wang}, J.-Y., y {Pan}, J.-W.}
+\newblock {Ground-to-satellite quantum teleportation}.
+\newblock {\em Nature}, 549:70--73, September 2017.
+
+\bibitem[Sch07]{book:66477}
+{\sc Schuster, A.}
+\newblock {\em Intelligent Computing Everywhere}.
+\newblock 2007.
+
+\bibitem[{Shi}02]{2002quant.ph..5115S}
+{\sc {Shi}, Y.}
+\newblock {Both Toffoli and Controlled-NOT need little help to do universal
+  quantum computation}.
+\newblock {\em eprint arXiv:quant-ph/0205115}, May 2002.
+
+\bibitem[{Sho}95]{1995quant.ph..8027S}
+{\sc {Shor}, P.~W.}
+\newblock {Polynomial-Time Algorithms for Prime Factorization and Discrete
+  Logarithms on a Quantum Computer}.
+\newblock {\em eprint arXiv:quant-ph/9508027}, August 1995.
+
+\bibitem[Sho09]{shoup2009computational}
+{\sc Shoup, V.}
+\newblock {\em A computational introduction to number theory and algebra}.
+\newblock Cambridge university press, 2009.
+
+\bibitem[Sip06]{sipser2006introduction}
+{\sc Sipser, M.}
+\newblock {\em Introduction to the Theory of Computation}.
+\newblock Thomson Course Technology Boston, 2006.
+
+\bibitem[SMCS08]{2008PhLA..372.6847S}
+{\sc {Simon}, R., {Mukunda}, N., {Chaturvedi}, S., y {Srinivasan}, V.}
+\newblock {Two elementary proofs of the Wigner theorem on symmetry in quantum
+  mechanics}.
+\newblock {\em Physics Letters A}, 372:6847--6852, November 2008.
+
+\bibitem[Tal17]{tal2017tight}
+{\sc Tal, A.}
+\newblock Tight bounds on the fourier spectrum of ac0.
+\newblock In {\em LIPIcs-Leibniz International Proceedings in Informatics},
+  volume~79. Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik, 2017.
+
+\bibitem[Tes98]{teschl1998topics}
+{\sc Teschl, G.}
+\newblock Topics in real and functional analysis.
+\newblock {\em unpublished, available online at http://www. mat. univie. ac.
+  at/\~{} gerald}, 1998.
+
+\bibitem[Tur37]{turing1937computable}
+{\sc Turing, A.~M.}
+\newblock On computable numbers, with an application to the
+  entscheidungsproblem.
+\newblock {\em Proceedings of the London mathematical society}, 2(1):230--265,
+  1937.
+
+\bibitem[{Tus}04]{2004cs........9051T}
+{\sc {Tusarova}, T.}
+\newblock {Quantum Complexity Classes}.
+\newblock {\em eprint arXiv:cs/0409051}, September 2004.
+
+\bibitem[TW01]{2001quant.ph..1077T}
+{\sc {Tegmark}, M., y {Wheeler}, J.~A.}
+\newblock {100 Years of the Quantum}.
+\newblock {\em eprint arXiv:quant-ph/0101077}, January 2001.
+
+\bibitem[Vaz13]{berkleyLect}
+{\sc Vazirani, U.~V.}
+\newblock {\em {BerkeleyX: CS191x Lecture Notes, Chapter 5}}.
+\newblock University of California, Berkeley, 2013.
+
+\bibitem[{Vig}11]{2011arXiv1107.2309V}
+{\sc {Vignat}, C.}
+\newblock {A generalized Isserlis theorem for location mixtures of Gaussian
+  random vectors}.
+\newblock {\em ArXiv e-prints}, July 2011.
+
+\bibitem[vMV02]{2002quant.ph..6003V}
+{\sc {van Dam}, W., {Mosca}, M., y {Vazirani}, U.}
+\newblock {How Powerful is Adiabatic Quantum Computation?}
+\newblock {\em eprint arXiv:quant-ph/0206003}, May 2002.
+
+\bibitem[VN18]{von2018mathematical}
+{\sc Von~Neumann, J.}
+\newblock {\em Mathematical Foundations of Quantum Mechanics: New Edition}.
+\newblock Princeton university press, 2018.
+
+\bibitem[Wai15]{StatisticsWainw}
+{\sc Wainwright, M.}
+\newblock {\em Mathematical Statistics}.
+\newblock 2015.
+
+\bibitem[Wec14]{Warren2014}
+{\sc Weckesser, W.}
+\newblock Complex integration wrapper: odeintw.
+\newblock \url{https://github.com/WarrenWeckesser/odeintw}, 2014.
+
+\bibitem[Wha05]{QuantumWhaley}
+{\sc Whaley, B.}
+\newblock {\em Phys191: Qubits, Quantum Mechanics, and Computers. No Cloning,
+  Teleportation}.
+\newblock Berkeley Univesity, 2005.
+
+\bibitem[Wit14]{book:1289398}
+{\sc Wittek, P.}
+\newblock {\em Quantum Machine Learning : What Quantum Computing Means to Data
+  Mining}.
+\newblock Elsevier Insights. Elsevier AP, Academic Press, 1 edition, 2014.
+
+\bibitem[XL95]{shor}
+{\sc Xi~Lin, F.}
+\newblock {Shor’s Algorithm and the Quantum Fourier Transform}.
+\newblock 1995.
+
+\bibitem[YRL{\etalchar{+}}12]{2012Natur.488..185Y}
+{\sc {Yin}, J., {Ren}, J.-G., {Lu}, H., {Cao}, Y., {Yong}, H.-L., {Wu}, Y.-P.,
+  {Liu}, C., {Liao}, S.-K., {Zhou}, F., {Jiang}, Y., {Cai}, X.-D., {Xu}, P.,
+  {Pan}, G.-S., {Jia}, J.-J., {Huang}, Y.-M., {Yin}, H., {Wang}, J.-Y., {Chen},
+  Y.-A., {Peng}, C.-Z., y {Pan}, J.-W.}
+\newblock {Quantum teleportation and entanglement distribution over
+  100-kilometre free-space channels}.
+\newblock {\em Nature}, 488:185--188, August 2012.
+
+\bibitem[Zwi96]{Zwickboolean}
+{\sc Zwick, U.}
+\newblock {\em Concrete Complexity: Lecture notes.}, volume~3.
+\newblock Tel Aviv University, 1996.
+
+\end{thebibliography}
