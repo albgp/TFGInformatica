@@ -6,47 +6,43 @@
 \contentsline {section}{\numberline {2.1}Bits Cu\IeC {\'a}nticos}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Registros de $n$ Qubits.}{9}{section.2.2}
 \contentsline {section}{\numberline {2.3}Puertas y Circuitos Cu\IeC {\'a}nticos.}{10}{section.2.3}
-\contentsline {section}{\numberline {2.4}El operador de medici\IeC {\'o}n}{15}{section.2.4}
-\contentsline {chapter}{\numberline {3}El Algoritmo de Shor}{16}{chapter.3}
-\contentsline {section}{\numberline {3.1}Preliminares para la factorizaci\IeC {\'o}n cu\IeC {\'a}ntica}{17}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Transformada de Fourier Cu\IeC {\'a}ntica en $\mathbb {Z}_m$.}{17}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}B\IeC {\'u}squeda del Orden.}{21}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Relacionando Factorizaci\IeC {\'o}n con B\IeC {\'u}squeda del Orden.}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}M\IeC {\'e}todo de las Fracciones Continuas}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Algoritmo Expl\IeC {\'\i }cito}{28}{section.3.4}
-\contentsline {section}{\numberline {3.5}\IeC {\textquestiondown }El Fin de RSA? La Criptograf\IeC {\'\i }a Postcu\IeC {\'a}ntica}{29}{section.3.5}
-\contentsline {section}{\numberline {3.6}Implementaci\IeC {\'o}n del Algoritmo de Shor}{30}{section.3.6}
-\contentsline {chapter}{\numberline {4}Factorizaci\IeC {\'o}n en Computaci\IeC {\'o}n Cu\IeC {\'a}ntica Adiab\IeC {\'a}tica}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Computaci\IeC {\'o}n Adiab\IeC {\'a}tica en Resumen}{31}{section.4.1}
-\contentsline {section}{\numberline {4.2}Reducci\IeC {\'o}n de la Factorizaci\IeC {\'o}n a un Problema de Optimizaci\IeC {\'o}n}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}Elecci\IeC {\'o}n de los hamiltonianos inicial y final}{33}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resultados experimentales}{34}{section.4.4}
-\contentsline {section}{\numberline {4.5}Simulando la Evoluci\IeC {\'o}n Adiab\IeC {\'a}tica con Circuitos}{36}{section.4.5}
-\contentsline {section}{\numberline {4.6}Relacionando Ambos M\IeC {\'e}todos}{38}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Caracterizaci\IeC {\'o}n de la Complejidad}{38}{subsection.4.6.1}
-\contentsline {chapter}{\numberline {5}Conclusiones y V\IeC {\'\i }as Futuras.}{39}{chapter.5}
-\contentsline {chapter}{Ap\'endices}{40}{section*.10}
-\contentsline {chapter}{Ap\'{e}ndice \numberline {A}Postulados de la Mec\IeC {\'a}nica Cu\IeC {\'a}ntica}{41}{Appendix.alph1.Alph1}
-\contentsline {chapter}{Ap\'{e}ndice \numberline {B}Aspectos de la Computaci\IeC {\'o}n Cu\IeC {\'a}ntica}{43}{Appendix.alph1.Alph2}
-\contentsline {section}{\numberline {B.1}Circuitos Universales}{43}{section.alph1.Alph2.1}
-\contentsline {section}{\numberline {B.2}Principio de No Clonaci\IeC {\'o}n}{44}{section.alph1.Alph2.2}
-\contentsline {section}{\numberline {B.3}Teleportaci\IeC {\'o}n Cu\IeC {\'a}ntica}{45}{section.alph1.Alph2.3}
-\contentsline {chapter}{Ap\'{e}ndice \numberline {C}Resultados de Aritm\IeC {\'e}tica Elemental}{48}{Appendix.alph1.Alph3}
-\contentsline {chapter}{Ap\'{e}ndice \numberline {D}Complejidad cu\IeC {\'a}ntica.}{50}{Appendix.alph1.Alph4}
-\contentsline {section}{\numberline {D.1}Los modelos de computaci\IeC {\'o}n de Turing}{50}{section.alph1.Alph4.1}
-\contentsline {section}{\numberline {D.2}La hip\IeC {\'o}tesis de Church-Turing}{50}{section.alph1.Alph4.2}
-\contentsline {section}{\numberline {D.3}El computador cu\IeC {\'a}ntico universal.}{52}{section.alph1.Alph4.3}
-\contentsline {section}{\numberline {D.4}M\IeC {\'a}quinas de Turing cu\IeC {\'a}nticas y circuitos cu\IeC {\'a}nticos.}{53}{section.alph1.Alph4.4}
-\contentsline {section}{\numberline {D.5}Definiciones de la clase $\BQP $.}{54}{section.alph1.Alph4.5}
-\contentsline {section}{\numberline {D.6}Caracterizaci\IeC {\'o}n de $\BQP $}{54}{section.alph1.Alph4.6}
-\contentsline {chapter}{Ap\'{e}ndice \numberline {E}Computaci\IeC {\'o}n Cu\IeC {\'a}ntica Adiab\IeC {\'a}tica}{57}{Appendix.alph1.Alph5}
-\contentsline {section}{\numberline {E.1}Evoluci\IeC {\'o}n temporal de un sistema cu\IeC {\'a}ntico}{57}{section.alph1.Alph5.1}
-\contentsline {section}{\numberline {E.2}Autovalores y autoestados}{57}{section.alph1.Alph5.2}
-\contentsline {section}{\numberline {E.3}El modelo de la AQC}{57}{section.alph1.Alph5.3}
-\contentsline {subsection}{\numberline {E.3.1}Teoremas de la AQC}{58}{subsection.alph1.Alph5.3.1}
-\contentsline {subsection}{\numberline {E.3.2}Caracterizaci\IeC {\'o}n de la complejidad}{59}{subsection.alph1.Alph5.3.2}
-\contentsline {chapter}{Ap\'{e}ndice \numberline {F}Ejemplo de Ejecuci\IeC {\'o}n del Algoritmo de Shor}{60}{Appendix.alph1.Alph6}
-\contentsline {chapter}{Bibliograf\'{\i }a}{63}{equation.alph1.Alph6.0.4}
-\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{67}{equation.alph1.Alph6.0.4}
-\contentsline {chapter}{\'{I}ndice de figuras}{69}{equation.alph1.Alph6.0.4}
-\contentsline {chapter}{\IeC {\'I}ndice de algoritmos}{70}{equation.alph1.Alph6.0.4}
+\contentsline {section}{\numberline {2.4}El operador de medici\IeC {\'o}n}{14}{section.2.4}
+\contentsline {chapter}{\numberline {3}El Algoritmo de Shor}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Preliminares para la factorizaci\IeC {\'o}n cu\IeC {\'a}ntica}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Transformada de Fourier Cu\IeC {\'a}ntica en $\mathbb {Z}_m$.}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}B\IeC {\'u}squeda del Orden.}{20}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Relacionando Factorizaci\IeC {\'o}n con B\IeC {\'u}squeda del Orden.}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}M\IeC {\'e}todo de las Fracciones Continuas}{26}{section.3.3}
+\contentsline {section}{\numberline {3.4}Algoritmo Expl\IeC {\'\i }cito}{27}{section.3.4}
+\contentsline {section}{\numberline {3.5}Implementaci\IeC {\'o}n del Algoritmo de Shor}{28}{section.3.5}
+\contentsline {chapter}{\numberline {4}Factorizaci\IeC {\'o}n en Computaci\IeC {\'o}n Cu\IeC {\'a}ntica Adiab\IeC {\'a}tica}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Computaci\IeC {\'o}n Adiab\IeC {\'a}tica en Resumen}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Reducci\IeC {\'o}n de la Factorizaci\IeC {\'o}n a un Problema de Optimizaci\IeC {\'o}n}{31}{section.4.2}
+\contentsline {section}{\numberline {4.3}Elecci\IeC {\'o}n de los hamiltonianos inicial y final}{31}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resultados experimentales}{32}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y V\IeC {\'\i }as Futuras.}{36}{chapter.5}
+\contentsline {chapter}{Ap\'endices}{37}{section*.10}
+\contentsline {chapter}{Ap\'{e}ndice \numberline {A}Postulados de la Mec\IeC {\'a}nica Cu\IeC {\'a}ntica}{38}{Appendix.alph1.Alph1}
+\contentsline {chapter}{Ap\'{e}ndice \numberline {B}Aspectos de la Computaci\IeC {\'o}n Cu\IeC {\'a}ntica}{40}{Appendix.alph1.Alph2}
+\contentsline {section}{\numberline {B.1}Circuitos Universales}{40}{section.alph1.Alph2.1}
+\contentsline {section}{\numberline {B.2}Principio de No Clonaci\IeC {\'o}n}{41}{section.alph1.Alph2.2}
+\contentsline {section}{\numberline {B.3}Teleportaci\IeC {\'o}n Cu\IeC {\'a}ntica}{42}{section.alph1.Alph2.3}
+\contentsline {chapter}{Ap\'{e}ndice \numberline {C}Resultados de Aritm\IeC {\'e}tica Elemental}{45}{Appendix.alph1.Alph3}
+\contentsline {chapter}{Ap\'{e}ndice \numberline {D}Complejidad cu\IeC {\'a}ntica.}{47}{Appendix.alph1.Alph4}
+\contentsline {section}{\numberline {D.1}Los modelos de computaci\IeC {\'o}n de Turing}{47}{section.alph1.Alph4.1}
+\contentsline {section}{\numberline {D.2}La hip\IeC {\'o}tesis de Church-Turing}{47}{section.alph1.Alph4.2}
+\contentsline {section}{\numberline {D.3}El computador cu\IeC {\'a}ntico universal.}{49}{section.alph1.Alph4.3}
+\contentsline {section}{\numberline {D.4}M\IeC {\'a}quinas de Turing cu\IeC {\'a}nticas y circuitos cu\IeC {\'a}nticos.}{50}{section.alph1.Alph4.4}
+\contentsline {section}{\numberline {D.5}Definiciones de la clase $\BQP $.}{51}{section.alph1.Alph4.5}
+\contentsline {section}{\numberline {D.6}Caracterizaci\IeC {\'o}n de $\BQP $}{51}{section.alph1.Alph4.6}
+\contentsline {chapter}{Ap\'{e}ndice \numberline {E}Computaci\IeC {\'o}n Cu\IeC {\'a}ntica Adiab\IeC {\'a}tica}{54}{Appendix.alph1.Alph5}
+\contentsline {section}{\numberline {E.1}Evoluci\IeC {\'o}n temporal de un sistema cu\IeC {\'a}ntico}{54}{section.alph1.Alph5.1}
+\contentsline {section}{\numberline {E.2}Autovalores y autoestados}{54}{section.alph1.Alph5.2}
+\contentsline {section}{\numberline {E.3}El modelo de la AQC}{54}{section.alph1.Alph5.3}
+\contentsline {subsection}{\numberline {E.3.1}Teoremas de la AQC}{55}{subsection.alph1.Alph5.3.1}
+\contentsline {subsection}{\numberline {E.3.2}Caracterizaci\IeC {\'o}n de la complejidad}{56}{subsection.alph1.Alph5.3.2}
+\contentsline {chapter}{Ap\'{e}ndice \numberline {F}Ejemplo de Ejecuci\IeC {\'o}n del Algoritmo de Shor}{57}{Appendix.alph1.Alph6}
+\contentsline {chapter}{Bibliograf\'{\i }a}{60}{equation.alph1.Alph6.0.4}
+\contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{64}{equation.alph1.Alph6.0.4}
+\contentsline {chapter}{\'{I}ndice de figuras}{66}{equation.alph1.Alph6.0.4}
+\contentsline {chapter}{\IeC {\'I}ndice de algoritmos}{67}{equation.alph1.Alph6.0.4}

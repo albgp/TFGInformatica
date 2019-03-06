@@ -340,7 +340,7 @@ Esto nos lleva a la interpretación probabilista de los coeficientes de la super
 
 Otra particularidad, de nuevo restrictiva, sobre el comportamiento de los qubits es que \textbf{el hecho de medir su estado no deja el estado del qubit inmutado}, sino que lo hace colapsar al valor medido, perdiendo así cualquier información codificada en su superposición. La razón de ello es todavía desconocida, sin embargo es uno de los postulados\footnote{Postulado \ref{post:7} del apéndice \ref{Postulados}} sobre los que se construye toda la teoría cuántica que tan buenos resultados ha dado, por lo que no parece probable que en un futuro pueda medirse el estado de un qubit sin hacerlo colapsar y por tanto no consideraremos tal posibilidad en nuestro marco teórico.\footnotemark{}\\
 
-\footnotetext{Aunque hemos presentado este comportamiento de forma arbitraria, el lector puede notar que es una consecuencia directa de los tres últimos postulados del apéndice \ref{Postulados}. En efecto, en la implementación de los qubits podemos asociar cada estado de la base con el valor un observable (a menudo la orientación del \emph{spin} de una partícula; $up=\ket{0}$, $down=\ket{1}$) y el hecho de realizar esta medición, junto con dichos postulados, justifica todo el formalismo aquí presentado.}
+\footnotetext{Aunque hemos presentado este comportamiento de forma arbitraria, el lector puede notar que es una consecuencia directa de los tres últimos postulados del apéndice \ref{Postulados}. En efecto, en la implementación de los qubits podemos asociar cada estado de la base con el valor un observable y el hecho de realizar esta medición, junto con dichos postulados, justifica todo el formalismo aquí presentado.}
 
 \begin{ejs} Si tenemos un qubit preparado, digamos, al valor 
 
@@ -483,7 +483,7 @@ y, de una redefinición de variables, se sigue lo que queríamos demostrar.\\
 
 Vemos en este punto que el concepto de estado del qubit como un elemento de un espacio de Hilbert se puede extender de forma natural a sistemas formados por un número arbitrario de qubits, que llamaremos \emph{registros}.\\
 
-Por el postulado \ref{post:4} parece que la forma natural de proceder es considerar el \emph{producto tensorial} de todos los espacios $\mathcal{H}$ de estados de un qubit y suponer que el estado del registro de los qubits es simplemente un elemento del espacio producto, que denotaremos $\mathcal{H}^{\otimes n}=\mathcal{H}\otimes\cdots\otimes \mathcal{H}$.\\
+Por el postulado \ref{post:4} del apéndice A, el cual hemos presentado ya informalmente, parece que la forma natural de proceder es considerar el \emph{producto tensorial} de todos los espacios $\mathcal{H}$ de estados de un qubit y suponer que el estado del registro de los qubits es simplemente un elemento del espacio producto, que denotaremos $\mathcal{H}^{\otimes n}=\mathcal{H}\otimes\cdots\otimes \mathcal{H}$.\\
 
 Definamos pues el producto tensorial de dos espacios de Hilbert $\mathcal{H}$ y $\tilde{\mathcal{H}}$, denotado $\mathcal{H}\otimes \tilde{\mathcal{H}}$, como sigue.\\
 
@@ -520,47 +520,7 @@ Por otro lado, dado que ya conocemos la dimensionalidad de los espacios para qub
 
 \noindent constituye una base del espacio $\mathcal{H}^{\otimes n}$. Como cada uno de los enteros binarios que usamos para la notación de la base corresponde unívocamente a un entero de $\{0,\cdots, 2^n-1\}$ comúnmente denotaremos a tal base como $\{\ket{0},\cdots,\ket{2^n-1}\}$.\\
 
-Veamos ahora una serie particular de estados de $\mathcal{H}$ que, como veremos en la sección \ref{sdc}, jugarán un papel crucial en la teoría de la información cuántica.\\
 
-
-\begin{purpleBox}
-\begin{defin}[Estados de Bell] Los estados de Bell (a veces llamados pares EPR, por Einstein, Podolsky y Rosen que los introdujeron en su famoso artículo de 1935 \cite{einstein1935can} \index{Par EPR}) son los siguientes\index{Estado de Bell}\\
-
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-\item $\ket{\mathbf{\Phi}^+}=\frac{\ket{00}+\ket{11}}{\sqrt{2}};$
-\item $\ket{\mathbf{\Psi}^+}=\frac{\ket{01}+\ket{10}}{\sqrt{2}};$
-\end{itemize}
-\end{minipage}
-\begin{minipage}{0.5\textwidth}
-\begin{itemize}
-\item $\ket{\mathbf{\Phi}^-}=\frac{\ket{00}-\ket{11}}{\sqrt{2}};$
-\item $\ket{\mathbf{\Psi}^-}=\frac{\ket{01}-\ket{10}}{\sqrt{2}};$
-\end{itemize}
-\end{minipage}
-\end{defin}
-\end{purpleBox}
-
-%\begin{obs}
-%Los pares EPR se pueden escribir de forma compacta como 
-%\begin{equation}
-%\ket{\beta_{ij}}=\frac{\ket{0,j}+(-1)^i\ket{1, 1-j}}{\sqrt{2}}
-%\end{equation}
-%\end{obs}
-
-\begin{obs}[$\ket{\mathbf{\Phi}^+}$ es un estado entrelazado]
-El par EPR $\ket{\mathbf{\Phi}^+}$ tiene una característica muy peculiar que será la base para ciertos comportamientos cuánticos que veremos más adelante. Esta característica es:\\
-
-No existen estados cuánticos para un solo qubit $\ket{\phi}=\alpha\ket{0}+\beta\ket{1}$ y $\ket{\psi}=\gamma\ket{0}+\delta\ket{1}$ tal que $\ket{\mathbf{\Phi}^+}=\ket{\phi}\otimes \ket{\psi}$, en efecto esto se puede comprobar fácilmente comprobando que el sistema
- 
-\begin{equation}
-\systeme*{\alpha\gamma=\beta\delta=\frac{1}{\sqrt{2}},\alpha\delta=\beta\gamma=0}
-\end{equation}
-
-no tiene soluciones en el plano complejo.\\
-
-Los estados con la propiedad mencionada serán referidos como \textbf{estados entrelazados} y serán de vital importancia cuando estudiemos la transmisión de información.
-\end{obs}
 
 \section{Puertas y Circuitos Cuánticos.}
 
@@ -578,7 +538,7 @@ U\ket{\phi}=\sum_i\alpha_iU\ket{i}
 
 Así pues, usando la linealidad, una puerta cuántica queda totalmente definida por los valores que toma sobre una base cualquiera del espacio de estados del registro. Además, aprovechando la linealidad podremos escribir cualquier puerta cuántica $U$ en forma matricial usando la forma en la que ésta actúa sobre los vectores de la base en la representación en $\mathbb{C}^2$.\\
 
-\begin{ejs}[El análogo cuántico al NOT] Como ya hemos esbozado, encontrar un operador análogo al NOT clásico en un circuito cuántico es equivalente a encontrar una matriz compleja (una puerta cuántica) que actúe sobre los estados de la base $\{\ket{0},\ket{1}\}$ tal y como actuaría una puerta NOT clásica. Es decir, debemos hallar una matriz $X$ tal que
+\begin{defin}[La puerta NOT cuántica] Como ya hemos esbozado, encontrar un operador análogo al NOT clásico en un circuito cuántico es equivalente a encontrar una matriz compleja (una puerta cuántica) que actúe sobre los estados de la base $\{\ket{0},\ket{1}\}$ tal y como actuaría una puerta NOT clásica. Es decir, debemos hallar una matriz $X$ tal que
 \begin{equation}
 \begin{split}
 X\ket{0}=\ket{1}\\
@@ -602,22 +562,9 @@ X\ket{0}\equiv X\begin{pmatrix} 1 \\ 0 \end{pmatrix}=\begin{pmatrix}0 & 1\\ 1& 0
 
 Y análogamente podemos comprobar que $X\ket{1}=\ket{0}$.\\
 
-A esta matriz que aquí definimos la denotaremos la\footnotemark{} \textbf{puerta NOT cuántica}.\index{Puerta NOT cuántica}
+A esta matriz que aquí definimos la denotaremos la \textbf{puerta NOT cuántica}.\index{Puerta NOT cuántica}
 
-\end{ejs}
-
-\footnotetext{A pesar de que trabajaremos con operadores casi exclusivamente en forma de matrices, es conveniente remarcar que también es posible escribir operadores sin tener que recurrir a la notación matricial. Como ejemplo, la puerta NOT cuántica es posible escribirla en notación de Dirac como
-
-\begin{equation}
-X=\ket{0}\bra{1}+\ket{1}\bra{0}
-\end{equation}
-
-pues podemos ver que, por ejemplo,
-
-\begin{equation}
-X\ket{0}=(\ket{0}\bra{1}+\ket{1}\bra{0})\ket{0}=\ket{0}\bra{1}\ket{0}+\ket{1}\bra{0}\ket{0}=0\ket{0}+1\ket{1}=\ket{1}
-\end{equation}
-}
+\end{defin}
 
 \begin{obs}[Puertas en notación \textit{ket-bra}]\label{holaOperador}\index{Notación \textit{ket-bra}} Con la notación que hemos definido, tal y como se remarca en \cite{feynman1965lectures}, dados dos estados $\ket{\phi}$ y $\ket{\psi}$, la notación \textit{ket-bra} $\ket{\phi}\bra{\psi}$ representa un operador, puesto que actúa sobre un estado arbitrario $\ket{\delta}$ tal que
 
@@ -625,13 +572,13 @@ X\ket{0}=(\ket{0}\bra{1}+\ket{1}\bra{0})\ket{0}=\ket{0}\bra{1}\ket{0}+\ket{1}\br
 (\ket{\phi}\bra{\psi})\ket{\delta}=\ket{\phi}\bra{\psi}\ket{\delta}=\underbrace{\bra{\psi}\ket{\delta}}_{\omega\in\mathbb{C}}\ket{\phi}=\omega\ket{\phi}
 \end{equation}
 
-\noindent que de hecho puede comprobarse que es unitario. Usando esta notación, si tenemos un subespacio $\mathcal{W}$ del espacio de estados con base $\{\ket{\tilde{0}}, \ket{\tilde{1}},\cdots,\ket{\tilde{k}}\}$ podemos proyectar cualquier estado en este subespacio mediante el operador
+\noindent que de hecho puede comprobarse que es unitario. \\
+
+En esta notación la puerta NOT es simplemente 
 
 \begin{equation}
-\mathcal{P}_\mathcal{W}=\sum_{i=0}^k\ket{\tilde{i}}\bra{\tilde{i}}
+X=\ket{0}\bra{1}+\ket{1}\bra{0}
 \end{equation}
-
-\noindent que llamaremos el \textit{proyector}\index{Proyector} sobre $\mathcal{W}$.
 \end{obs}
 
 Pero la linealidad no es la única restricción que debemos imponer a nuestras puertas cuánticas. Como ya vimos en la sección \ref{sec:qubits}, un estado cuántico corresponde a un estado \emph{normalizado}, por lo que, para obtener un registro en un estado válido (normalizado) la puerta cuántica no debería alterar la norma del estado, es decir, debería cumplirse que $\norm{U\ket{\phi}}=\norm{\ket{\phi}}=1$. Los operadores (matrices) que satisfacen este requisito son las denominadas matrices unitarias, es decir, aquellas tales que 
@@ -641,7 +588,7 @@ U^{\dag}U=I
 
 Donde el símbolo $U^\dag$ indica la \textbf{matriz adjunta}, tambien denotada como la \textbf{matriz adjunta hermítica}, es decir, aquella que está definida implícitamente como \index{Matriz adjunta}
 \begin{equation}
-\langle U\ket{x}, \ket{y} \rangle=\langle \ket{x}, U^\dag\ket{y} \rangle\qquad \text{para estados cualesquiera }\ket{x},\ket{y}
+\bra{x}U \ket{y} =\bra{x} U^\dag\ket{y} \qquad \text{para estados cualesquiera }\ket{x},\ket{y}
 \end{equation}
 
 Posiblemente el mayor exponente de las puertas cuánticas aplicables a un solo qubit sea la conocida como \textbf{puerta $H$ de Hadamard}. Esta puerta se define unívocamente como la puerta que actúa sobre la base $\{\ket{0},\ket{1}\}$ como $H\ket{0}=\ket{+}$ y $H\ket{1}=\ket{-}$. Con tal definición y como hemos hecho para la puerta NOT, podemos obtener de forma simple la representación matricial de la puerta de Hadamard como
@@ -657,9 +604,9 @@ Es un ejercicio elemental comprobar que en efecto el operador de Hadamard es uni
 
 \footnotetext{
 La puerta de Hadamard se puede escribir en notación de Dirac simplemente como
-\begin{equation}
-H=\frac{1}{\sqrt{2}}\Big(\ket{0}\bra{0}+\ket{0}\bra{1}+\ket{1}\bra{0}-\ket{1}\bra{1}\Big)=\frac{1}{\sqrt{2}}\Big((\ket{0}+\ket{1})\bra{0}+(\ket{0}-\ket{1})\bra{1}\Big)=\ket{+}\bra{0}+\ket{-}\bra{1}
-\end{equation}
+\begin{equation*}
+H=\ket{+}\bra{0}+\ket{-}\bra{1}
+\end{equation*}
 
 por lo que el lector puede notar de forma clara la relación entre los coeficientes del operador en representación matricial y los términos de la suma del operador en notación de Dirac.
 }
@@ -678,9 +625,7 @@ R_s:=\begin{pmatrix}
 \end{pmatrix}
 \end{equation}
 
-El caso $s=\pi$ es particularmente importante, puesto que invierte la fase del estado del qubit. Por lo que es utilizada en multitud de contextos. Denotaremos a $R_\pi$ mediante el símbolo $Z$ y la llamaremos la función $Z$ de Pauli.\\
-
-Para una registro de $n$ qubits podremos seguir el mismo mecanismo y escribir operadores como matrices de dimensión $2^n$. Podemos construir operadores a partir de otros más pequeños mediante el \emph{producto de Kronecker}\index{Producto de Kronecker} definido tal que, si la representación matricial de dos operadores $A$ y $B$ en $\mathcal{H}$ y $\tilde{\mathcal{H}}$ respectivamente es\\
+Para una registro de $n$ qubits podremos seguir el mismo formalismo presentado hasta el momento y escribir operadores como matrices de dimensión $2^n$. Podemos construir operadores a partir de otros más pequeños mediante el \emph{producto de Kronecker}\index{Producto de Kronecker} definido tal	 que, si la representación matricial de dos operadores $A$ y $B$ en $\mathcal{H}$ y $\tilde{\mathcal{H}}$ respectivamente es\\
 
 \noindent\begin{minipage}{.5\linewidth}
 \begin{equation*}
@@ -891,11 +836,11 @@ Existe un algoritmo cuántico que, dado un entero $N$, devuelve la factorizació
 
 El algoritmo de Shor requiere ciertos fundamentos teóricos que deberemos abordar primero, lo que no nos impide en este punto dar una descripción conceptual del mismo. Dado un número $N$, bastará demostrar que podremos encontrar un solo factor $K$ no trivial en tiempo polilogarítmico, dado que podremos ejecutar el algoritmo de nuevo con las entradas $K$ y $N/K$ y esto necesitaremos hacerlo un máximo de $\log N$ veces, pues un número $N$ no puede tener más de $\log N$ divisores primos distintos de $1$, y por tanto el algoritmo sería polilogarítmico de igual forma.\\
 
-Una de las ideas clave del algoritmo fue propuesta por Miller en \cite{MILLER1976300} y consistirá en la reducción del problema de la factorización prima al problema conocido como \textit{búsqueda del orden}, es decir, deberemos encontrar el orden $r$ de un entero $A$ en el grupo $\mathbb{Z}_N^*$. La razón de ello es que, con buena probabilidad (afinaremos esta afirmación más adelante), el orden $r$ de $A$ será par y además $A^{r/2}+1 \not\equiv 0\ (\text{mod } N)$ por lo que, por el lema \ref{shor:lema5}, $A^{r/2}-1$ compartirá un factor primo no trivial con $N$, que se podrá calcular con el simple algoritmo de Euclides (algoritmo \ref{euclidesAlg}) para el máximo común divisor, que es altamente eficiente en tiempo y memoria.\\
+Una de las ideas clave del algoritmo fue propuesta por G. L. Miller en \cite{MILLER1976300} y consistirá en la reducción del problema de la factorización prima al problema conocido como \textit{búsqueda del orden}. La razón de ello es que, con buena probabilidad (afinaremos esta afirmación más adelante), el orden $r$ de un entero $A$ elegido aleatoriamente será par y además $A^{r/2}+1 \not\equiv 0\ (\text{mod } N)$ por lo que, como veremos, $A^{r/2}-1$ compartirá un factor primo no trivial con $N$, que se podrá calcular con el simple algoritmo de Euclides (algoritmo \ref{euclidesAlg} del apéndice) para el máximo común divisor, que es altamente eficiente en tiempo y memoria.\\
 
-Encontraremos por tanto un algoritmo en $polylog(N)$ que será como sigue: dado un registro cuántico inicializado al estado cero $\ket{0\cdots 0}$ el algoritmo transformará tal estado a la superposición de todos los estados $\ket{x}$ tal que $x\leq N$ que cumplan $A^x\equiv y_0\ (\text{mod } N)$. Usando resultados básicos de la Teoría de Números, el conjunto de valores $x$ que cumplen tal condición será de la forma $\{x_0+ri\}_{i \in \mathbb{N}}$ y además $r$ será el orden de $A$.\\
+Encontraremos por tanto un algoritmo en $polylog(N)$ que será como sigue: dado un registro cuántico inicializado al estado cero $\ket{0\cdots 0}$ el algoritmo transformará tal estado a la superposición de todos los estados $\ket{x}$ tal que $x\leq N$ que cumplan $A^x\equiv y_0\ (\text{mod } N)$. Usando resultados básicos de aritmética, el conjunto de valores $x$ que cumplen tal condición será de la forma $\{x_0+ri\}_{i \in \mathbb{N}}$ y además $r$ será el orden de $A$.\\
 
-¿Cómo computaremos el \textit{periodo} $r$ de la serie armónica? Usaremos la ya conocida transformada de Fourier, en su eficiente forma cuántica (QFT). De hecho probaremos que existe un circuito cuántico de tamaño polilogarítmico que la computa. En ciertos problemas esto podría no ser suficiente pues, como ya hemos mencionado, la información del resutlado de la QFT contenida en un estado cuántico no es medible en su completitud, sino tan solo un estado de colapso. Sin embargo veremos que podremos obtener información significativa para nuestro problema a partir de una sola medición del estado resultado del algoritmo. \\
+¿Cómo computaremos el \textit{periodo} $r$ de la serie armónica? Usaremos la ya conocida transformada de Fourier, en su eficiente forma cuántica (QFT). De hecho probaremos que existe un circuito cuántico de tamaño polilogarítmico que la computa. En ciertos problemas esto podría no ser suficiente pues, como ya hemos mencionado, la información del resutlado de la QFT contenida en un estado cuántico no es medible en su completitud, sino tan solo un estado de colapso. Sin embargo veremos que, en la mayoría de los casos, podremos obtener información significativa para nuestro problema a partir de una sola medición del estado resultado del algoritmo. \\
 
 
 Por el teorema anterior y sabiendo que el número de bits $n$ necesario para codificar un entero $N$ es $\lceil \log_2 N\rceil$ podemos decir que el problema de la factorización prima pertenece al análogo cuántico para la clase $\PP$, llamada $\BQP$. Por si el lector desease conocer más a fondo la definición de $\BQP$ y su caracterización dentro de la Teoría de la Complejidad hemos incluido en el apéndice \ref{Comp2} un breve estudio sobre esta clase.\\
@@ -941,7 +886,7 @@ Así pues obtenemos, usando el hecho de que\footnote{Se sigue directamente de la
 \end{cases}
 \end{equation}
 
-Esta descomposición nos proporciona una forma de calcular la DFT de un vector de tamaño $2^m$ en función de dos vectores de tamaño $2^{m-1}$. Se puede comprobar, simplemente resolviendo la ecuación de recurrencia para el orden de ejecución y suponiendo un caso base realizable en un tiempo constante, que el número de operaciones (clásicas) necesario para realizar la FFT de un entero de $m$ bits es $O(m2^m)=O(M\log(M))$ que crece exponencialmente con el tamaño de la entrada.\\
+Esta descomposición nos proporciona una forma de calcular la DFT de un vector de tamaño $2^m$ en función de dos vectores de tamaño $2^{m-1}$. Se puede comprobar, simplemente resolviendo la ecuación de recurrencia para el orden de ejecución y suponiendo un caso base realizable en un tiempo constante, que el número de operaciones (clásicas) necesario para realizar la FFT de un entero de $m$ bits es $O(m2^m)=O(M\log(M))$ que crece linealmente con el número de bits de la entrada.\\
 
 Habiendo visto cómo funciona la FFT, usemos la teoría cuántica para optimizarla.\\
 
@@ -949,7 +894,7 @@ Habiendo visto cómo funciona la FFT, usemos la teoría cuántica para optimizar
 \begin{yellowBox}
 \begin{defin}[Tansformada de Fourier Cuántica en $\mathbb{Z}_M$(QFT)]\index{Tansformada de Fourier cuántica} Suponemos que $M=2^m$ es una potencia exacta de $2$, sea $\{\ket{0},\cdots,\ket{M-1}\}$ una base ortonormal de un sistema cuántico y sea $\ket{\varphi}=\sum_{j=0}^{M-1}\ket{j}$ un estado cuántico. La \textbf{transformada de Fourier cuántica} $F_M$ es una operación definida por
 \begin{equation}
-\ket{\varphi}=\sum_{j=0}^{M-1}\alpha_j\ket{j}\rightarrow \sum_{j=0}^{M-1}\frac{\alpha_j}{\sqrt{M}}\sum_{k=0}^{M-1}\zeta^{-jk}\ket{k}
+\ket{\varphi}=\sum_{j=0}^{M-1}\alpha_j\ket{j}\xrightarrow[]{\text{QFT}} \sum_{j=0}^{M-1}\frac{\alpha_j}{\sqrt{M}}\sum_{k=0}^{M-1}\zeta^{-jk}\ket{k}
 \end{equation}
 \end{defin}
 \end{yellowBox}
@@ -960,14 +905,13 @@ En particular, podemos ver que cada estado cuántico base $\ket{j}$ transforma c
 \ket{j}\rightarrow\frac{1}{\sqrt{M}}\sum_{k=0}^{M-1}\zeta^{-jk}\ket{k}
 \end{equation}
 
-\footnotetext{
 Sabiendo que cada estado cuántico de la base transforma como se ha mostrado es sencillo ver que $F_M$ puede escribirse en representación como operador (observación \ref{holaOperador}) de la forma
 \begin{equation*}
 F_M=\frac{1}{\sqrt{M}}\sum_{j,k=0}^{M-1}\zeta^{-jk}\ket{k}\bra{j}
 \end{equation*}
-y no es difícil comprobar (\cite{shor}) que esta operación es unitaria. Además, si escribiésemos la representación matricial del operador veríamos que la matriz asociada $\mathbb{F}_M\in \mathcal{M}_{M\times M}(\mathbb{C})$ es una matriz que en su posición $(j,k)$-ésima toma el valor $\zeta^{-jk}/\sqrt{M}$, lo que concuerda con la presentación que se ha dado para la DFT clásica en $\mathbb{Z}_M$.
-}
+y no es difícil comprobar (\cite{shor}) que esta operación es unitaria y por tanto una puerta cuántica válida. Además, si escribiésemos la representación matricial del operador veríamos que la matriz asociada $\mathbb{F}_M\in \mathcal{M}_{M\times M}(\mathbb{C})$ es una matriz que en su posición $(j,k)$-ésima toma el valor $\zeta^{-jk}/\sqrt{M}$, lo que concuerda con la presentación que se ha dado para la DFT clásica en $\mathbb{Z}_M$.\\
 
+La clave para la implementación de esta puerta usando aquellas presentadas en el capítulo 2 reside en el siguiente lema.\\
 
 
 \begin{yellowBox}
@@ -1020,7 +964,7 @@ Podemos usar esta caracterización del estado transformado por la QFT para crear
 
 \begin{yellowBox}
 \begin{teo}[Algoritmo para la transformada de Fourier cuántica]
-Para cada $m$, $M$ con $M=2^m$ existe un algoritmo cuántico que usa $O(m^2)=O(\log M)$ operaciones cuánticas elementales y calcula la QFT de un estado cualquiera.
+Para cada $m$, $M$ con $M=2^m$ existe un algoritmo cuántico que usa $O(m^2)=O(\log M)$ operaciones cuánticas \textbf{elementales} y calcula la QFT de un estado cualquiera.
 \end{teo}
 \end{yellowBox}
 
@@ -1035,7 +979,7 @@ Definimos en primer lugar una notación abreviada para un modelo de puerta cuán
 \end{pmatrix}
 \end{equation}
 
-Supongamos que nuestro estado de entrada es un estado producto de qubits $\ket{j}=\bigotimes_{r=1}^m\ket{j_r}$. Apliquemos la operación de Hadamard al primer qubit, obteniendo
+Supongamos que nuestro estado de entrada es un estado producto de qubits $\ket{j}=\bigotimes_{r=1}^m\ket{j_r}$ con $j_r\in\{0,1\}$. Apliquemos la operación de Hadamard al primer qubit, obteniendo
 
 \begin{equation}
 \frac{1}{\sqrt{2}}(\ket{0}+e^{-2\pi i(0.j_1)}\ket{1})\otimes\ket{j_2}\otimes\cdots\otimes\ket{j_m}
@@ -1069,7 +1013,7 @@ Que es exactamente el estado que queríamos, excepto por el orden. Nada nos impi
 ¿Cuántas puertas cuánticas usa el circuito que aquí hemos expuesto? Para el qubit en la posición $r$ en el producto usamos una puerta de Hadamard y $r-1$ puertas de rotación, además, al final del circuito le damos la vuelta con $\lfloor m/2 \rfloor$ puertas de intercambio, obteniendo así un número de puertas
 
 \begin{equation}
-m+\sum_{r=1}^m (r-1)+\lfloor m/2 \rfloor \sim \frac{3m+(m-1)m}{2}=O(m^2)
+m+\sum_{r=1}^m (r-1)+\lfloor m/2 \rfloor \approx \frac{3m+(m-1)m}{2}\in O(m^2)
 \end{equation}
 
 Hemos obtenido de esta forma una agilización exponencial del algoritmo clásico FFT dado que el algoritmo QFT se ejecuta usando tan solo $O(m^2)$ operaciones.
@@ -1193,7 +1137,7 @@ Aunque hemos elegido este algoritmo por su sencillez, existen otros algoritmos c
 
 Recordemos que el objetivo es encontrar, para un elemento $A$ concreto en $\mathbb{Z}_n^*$, su orden. Definamos ahora el algoritmo de la búsqueda del orden. Partiremos, como en casi todos los algoritmos cuánticos, de un registro preparado al valor $\ket{0}$. El registro estará formado por $2m$ qubits donde $m$ es el entero tal que\footnotemark{} $n^2\leq 2^m < 2n^2$. Usaremos la notación $\ket{0}=\ket{0}\otimes\ket{0}$ para enfatizar que el registro (formado por $2m$ qubits) es el registro producto de dos registros de $m$ qubits.\\
 
-\footnotetext{P. Shor no da en su artículo original ninguna razón para esta elección, tampoco así ciertos artículos consultados que analizan el trabajo de Shor, sin embargo creemos firmemente que la elección para $m$ viene motivada por lo siguiente: dado que $A$ será un elemento menor que $n$, usando el Teorema de Lagrange (\cite{gallian2012contemporary} Teorema 9.1) sabemos que su orden dividirá al orden del grupo multiplicativo, es decir, a $|\mathbb{Z}_n^*|=\phi(n)$. Por lo que, en particular, su orden será menor que $n$. Tomando tal elección para el valor de $m$ tendremos por seguro que al menos encontraremos $n$ ciclos completos en la sucesión $\{A^x (\text{mod }n)\ |\ x\in\{0,\cdots,2^m-1\} \}$, lo que nos permitirá que la QFT halle el periodo $r$ con gran precisión. }
+\footnotetext{Porque...}
 
 Usando la QFT tal y como vimos en la observación \ref{ejemploFourier}, podemos cambiar el estado del primer $m$-registro a una superposición uniforme de la forma
 
@@ -1533,6 +1477,10 @@ Por otro lado cabe preguntarse en qué momento el algoritmo detectará que hemos
 
 \footnotetext{La elección podrá ser realmente aleatoria si esta parte del algoritmo se ejecuta sobre un ordenador cuántico (ejemplo \ref{aleatorio}). Si por el contrario solo ejecutamos la QFT de forma cuántica y esta parte se realiza sobre un computador clásico no probabilista nos deberemos conformar con un entero pseudo-aleatorio, que funcionará perfectamente para nuestros propósitos.}
 
+
+
+\begin{comment}
+
 \section{¿El Fin de RSA? La Criptografía Postcuántica}
 
 Una pregunta que surge de manera muy natural al comprobar que en el marco de la computación cuántica la factorización prima se torna tan sencilla es: ¿Qué ocurre con los sistemas de criptografía basados en factorización? \\
@@ -1549,6 +1497,8 @@ Aunque aquí solo hemos mencionado la aplicación a RSA, existen otros mecanismo
 
 Podría parecer por tanto que la seguridad está gravemente comprometida en su totalidad por este nuevo paradigma de computación. Nada más lejos. De hecho, Daniel J. Bernstein en su artículo \cite{bernstein2011post} realiza un análisis de qué tecnologías son vulnerables e indica que muchas de las que hoy en día utilizamos son perfectamente seguras. Al conjunto de técnicas seguras se le denomina criptografía post-cuántica. Por ejemplo, la autenticación ampliamente usada Kerberos es resistente a cualquier tipo de ataque por factorización. Incluso ha surgido un análogo a Diffie-Hellman resistente a los algoritmos cuánticos llamado \textit{DIDH} cuyas siglas significan \emph{supersingular isogeny Diffie-Hellman} el cual se expone en el artículo \cite{jao2011towards}.
 
+\end{comment}
+
 %\input{Complejidad}
 
 \section{Implementación del Algoritmo de Shor}
@@ -1558,7 +1508,7 @@ Podría parecer por tanto que la seguridad está gravemente comprometida en su t
 \end{center}
 
 
-Todo el software, realizado con el lenguaje de programación Julia, que aquí se comenta no se incluye en la memoria por ser excesivamente largo y no considerarse los detalles de vital importancia. A pesar de ello se puede consultar perfectamente, e incluso clonar el repositorio, desde el enlace \url{https://github.com/albgp/TFGQuant.git}.
+Todo el software, realizado con el lenguaje de programación Julia, que aquí se comenta no se incluye en la memoria por ser excesivamente largo y no considerarse los detalles de vital importancia. A pesar de ello se puede consultar perfectamente, e incluso clonar el repositorio, desde el enlace \url{https://github.com/albgp/TFGQuant.git}. \cite{2016arXiv161208091S}\cite{2002quant.ph..5095B}
 
 
 \chapter{Factorización en Computación Cuántica Adiabática} \label{seq:adiabatica}
@@ -1832,57 +1782,6 @@ El código, de nuevo, se puede encontrar en el repositorio para el proyecto \url
 \caption{Estado de superposición para cada qubit solución con cada índice $k$ numerado tal que $k\sim(k\ \mathbf{div}\ 2^n,k\ \mathbf{mod}\ 2^n)$ y valor de la energía para distintos rangos de integración en el caso $N=3$, $\Omega=10^{-3}$.}\label{FigRes}
 \end{figure}
  
-
-\section{Simulando la Evolución Adiabática con Circuitos}
-
-\begin{equation}
-U'_j(T)=e^{-i(T/r)\hat{H}'_r}\cdots e^{-i(T/r)\hat{H}'_1}
-\end{equation}
-
-\begin{equation}
-U'_j:=e^{-iT/r(1-j/r)\hat{H}_0-iT/r\, j/r\hat{H}_f}
-\end{equation}
-
-\begin{yellowBox}
-\begin{teo} [Teorema de Campbell-Baker-Hausdorff. \cite{bhatia2013matrix}\index{Teorema de Campbell-Baker-Hausdorff}]
-Sean $A$ y $B$ matrices unitarias, entonces\footnotemark{} 
-\begin{equation}
-\norm{e^{A+B}-e^Ae^B}_2\in O(\norm{AB}_2)
-\end{equation}
-\end{teo}
-\end{yellowBox}
-
-\footnotetext{Se sigue de la fórmula de Campbell-Baker-Hausdorff en la que, usando el conmutador $[A,B]=AB-BA$, se tiene
-\begin{equation}
-e^Ae^B=e^{A+B+[A,B]/2+[X,[X,Y]]/12+\cdots}
-\end{equation}
-}
-
-\begin{equation}
-U''_j=e^{-iT/r(1-j/r)\hat{H}_0}e^{-iT/r\, j/r \hat{H}_f}
-\end{equation}
-
-\begin{equation}
-H''_j=\mathbb{H}^{\otimes 2n}F_{0,j}\mathbb{H}^{\otimes 2n}F_{f,j}
-\end{equation}
-
-donde 
-
-\begin{equation}
-\begin{split}
-F_{0,j}\ket{z} &= e^{-iT/r(1-j/r) h(z)}\ket{z}\\
-F_{f,j}\ket{z} &= e^{-iT/r(j/r) f(z)}\ket{z}
-\end{split}
-\end{equation}
-
-
-\begin{yellowBox}
-\begin{teo} Sean $\hat{H}_0$ y $\hat{H}_f$ los hamiltonianos iniciales y finales para el cómputo adiabático y $f\in O(n^d)$, entonces la transformación unitaria $U(T)$ inducida por el hamiltoniano $\hat{H}(s)=\Big(1-\frac{t}{T}\Big)\hat{H}_0+\frac{t}{T}\hat{H}_f$ dependiente del tiempo puede aproximarse mediante $r$ puertas cuánticas consecutivas $U''_1,\cdots,U''_r$ con $r\in O(T^2n^{d+1})$. Además cada $U''_j$ tiene la forma $\mathbb{H}^{\otimes 2n}F_{0,j}\mathbb{H}^{\otimes 2n}F_{f,j}$ y puede implementarse eficientemente en tiempo $poly(nT)$.
-\end{teo}
-\end{yellowBox}
-
-\section{Relacionando Ambos Métodos}
-\subsection{Caracterización de la Complejidad}
 
 \chapter{Conclusiones y Vías Futuras.}
 

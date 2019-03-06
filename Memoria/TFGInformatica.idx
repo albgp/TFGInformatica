@@ -11,71 +11,67 @@
 \indexentry{Notaci\IeC {\'o}n \textit{bra-ket}|hyperpage}{7}
 \indexentry{Qubit|hyperpage}{8}
 \indexentry{Registro de qubits|hyperpage}{9}
-\indexentry{Par EPR|hyperpage}{10}
-\indexentry{Estado de Bell|hyperpage}{10}
 \indexentry{Puerta cu\IeC {\'a}ntica|hyperpage}{10}
 \indexentry{Operador cu\IeC {\'a}ntico|hyperpage}{10}
-\indexentry{Puerta NOT|hyperpage}{11}
-\indexentry{Puerta NOT cu\IeC {\'a}ntica|hyperpage}{11}
-\indexentry{Notaci\IeC {\'o}n \textit{ket-bra}|hyperpage}{11}
-\indexentry{Proyector|hyperpage}{11}
-\indexentry{Matriz adjunta|hyperpage}{12}
-\indexentry{Puerta $H$ de Hadamard |hyperpage}{12}
-\indexentry{Producto de Kronecker|hyperpage}{13}
-\indexentry{Puerta de Hadamard|hyperpage}{14}
-\indexentry{Puerta Z|hyperpage}{14}
-\indexentry{Puerta NOT|hyperpage}{14}
-\indexentry{Puerta de desplazamiento de fase|hyperpage}{14}
-\indexentry{Puerta controlled-Not|hyperpage}{14}
-\indexentry{Puerta de intercambio|hyperpage}{14}
+\indexentry{Puerta NOT|hyperpage}{10}
+\indexentry{Puerta NOT cu\IeC {\'a}ntica|hyperpage}{10}
+\indexentry{Notaci\IeC {\'o}n \textit{ket-bra}|hyperpage}{10}
+\indexentry{Matriz adjunta|hyperpage}{11}
+\indexentry{Puerta $H$ de Hadamard |hyperpage}{11}
+\indexentry{Producto de Kronecker|hyperpage}{12}
+\indexentry{Puerta de Hadamard|hyperpage}{13}
+\indexentry{Puerta Z|hyperpage}{13}
+\indexentry{Puerta NOT|hyperpage}{13}
+\indexentry{Puerta de desplazamiento de fase|hyperpage}{13}
+\indexentry{Puerta controlled-Not|hyperpage}{13}
+\indexentry{Puerta de intercambio|hyperpage}{13}
+\indexentry{Puerta Toffoli|hyperpage}{13}
+\indexentry{Puerta SWAP|hyperpage}{13}
 \indexentry{Puerta Toffoli|hyperpage}{14}
-\indexentry{Puerta SWAP|hyperpage}{14}
-\indexentry{Puerta Toffoli|hyperpage}{14}
-\indexentry{Operador de medici\IeC {\'o}n|hyperpage}{15}
-\indexentry{Algoritmo de Shor|hyperpage}{16}
-\indexentry{Tansformada de Fourier discreta en $\mathbb{Z}_M$|hyperpage}{17}
-\indexentry{Fast Fourier Transform|hyperpage}{18}
-\indexentry{Factor de rotaci\IeC {\'o}n|hyperpage}{18}
-\indexentry{Tansformada de Fourier cu\IeC {\'a}ntica|hyperpage}{18}
-\indexentry{Puerta de rotaci\IeC {\'o}n|hyperpage}{20}
-\indexentry{B\IeC {\'u}squeda del orden|hyperpage}{21}
-\indexentry{Exponenciaci\IeC {\'o}n modular|hyperpage}{22}
-\indexentry{Delta de Kronecker|hyperpage}{23}
-\indexentry{Fracci\IeC {\'o}n continua|hyperpage}{27}
-\indexentry{Teorema de Campbell-Baker-Hausdorff|hyperpage}{38}
-\indexentry{Postulados de la F\IeC {\'\i }sica Cu\IeC {\'a}ntica|hyperpage}{41}
-\indexentry{Principio de superposici\IeC {\'o}n|hyperpage}{41}
-\indexentry{Hamiltoniano|hyperpage}{41}
-\indexentry{Ecuaci\IeC {\'o}n de Schr\IeC {\"o}dinger|hyperpage}{41}
-\indexentry{Constante de Planck $\hbar$|hyperpage}{41}
-\indexentry{Autovalor|hyperpage}{42}
-\indexentry{Autoestado|hyperpage}{42}
-\indexentry{Circuito universal|hyperpage}{43}
-\indexentry{Tama\IeC {\~n}o circuital|hyperpage}{44}
-\indexentry{Teorema de no clonaci\IeC {\'o}n|hyperpage}{44}
-\indexentry{Teorema de no borrado|hyperpage}{45}
-\indexentry{Codificaci\IeC {\'o}n superdensa|hyperpage}{45}
-\indexentry{Grupo|hyperpage}{48}
-\indexentry{Subgrupo|hyperpage}{48}
-\indexentry{El grupo aditivo $\mathbb{Z}_m$|hyperpage}{48}
-\indexentry{El grupo multiplicativo $\mathbb{Z}_m^*$|hyperpage}{48}
-\indexentry{Funci\IeC {\'o}n $\phi$ de Euler|hyperpage}{48}
-\indexentry{Isomorfismo de grupos|hyperpage}{48}
-\indexentry{Orden (grupo)|hyperpage}{48}
-\indexentry{Teorema Chino de los Restos|hyperpage}{48}
-\indexentry{Algoritmo de Euclides|hyperpage}{49}
-\indexentry{M\IeC {\'a}quina de Turing cl\IeC {\'a}sica determinista|hyperpage}{50}
-\indexentry{M\IeC {\'a}quina de Turing probabilista|hyperpage}{50}
-\indexentry{Hip\IeC {\'o}tesis de Church-Turing|hyperpage}{51}
-\indexentry{Principio de Church-Turing|hyperpage}{51}
-\indexentry{M\IeC {\'a}quina de Turing cu\IeC {\'a}ntica|hyperpage}{52}
-\indexentry{Simulaci\IeC {\'o}n circuital|hyperpage}{53}
-\indexentry{Clase $\BQP$|hyperpage}{54}
-\indexentry{Autovalor|hyperpage}{57}
-\indexentry{Autoestado|hyperpage}{57}
-\indexentry{Computaci\IeC {\'o}n Adiab\IeC {\'a}tica|hyperpage}{57}
-\indexentry{Optimizaci\IeC {\'o}n cu\IeC {\'a}ntica estoc\IeC {\'a}stica|hyperpage}{57}
-\indexentry{Temple cu\IeC {\'a}ntico.|hyperpage}{57}
-\indexentry{Hamiltoniano $k$-local|hyperpage}{58}
-\indexentry{C\IeC {\'o}mputo cu\IeC {\'a}ntico adiab\IeC {\'a}tico|hyperpage}{58}
-\indexentry{Teorema cu\IeC {\'a}ntico adiab\IeC {\'a}tico.|hyperpage}{58}
+\indexentry{Operador de medici\IeC {\'o}n|hyperpage}{14}
+\indexentry{Algoritmo de Shor|hyperpage}{15}
+\indexentry{Tansformada de Fourier discreta en $\mathbb{Z}_M$|hyperpage}{16}
+\indexentry{Fast Fourier Transform|hyperpage}{17}
+\indexentry{Factor de rotaci\IeC {\'o}n|hyperpage}{17}
+\indexentry{Tansformada de Fourier cu\IeC {\'a}ntica|hyperpage}{17}
+\indexentry{Puerta de rotaci\IeC {\'o}n|hyperpage}{19}
+\indexentry{B\IeC {\'u}squeda del orden|hyperpage}{20}
+\indexentry{Exponenciaci\IeC {\'o}n modular|hyperpage}{21}
+\indexentry{Delta de Kronecker|hyperpage}{22}
+\indexentry{Fracci\IeC {\'o}n continua|hyperpage}{26}
+\indexentry{Postulados de la F\IeC {\'\i }sica Cu\IeC {\'a}ntica|hyperpage}{38}
+\indexentry{Principio de superposici\IeC {\'o}n|hyperpage}{38}
+\indexentry{Hamiltoniano|hyperpage}{38}
+\indexentry{Ecuaci\IeC {\'o}n de Schr\IeC {\"o}dinger|hyperpage}{38}
+\indexentry{Constante de Planck $\hbar$|hyperpage}{38}
+\indexentry{Autovalor|hyperpage}{39}
+\indexentry{Autoestado|hyperpage}{39}
+\indexentry{Circuito universal|hyperpage}{40}
+\indexentry{Tama\IeC {\~n}o circuital|hyperpage}{41}
+\indexentry{Teorema de no clonaci\IeC {\'o}n|hyperpage}{41}
+\indexentry{Teorema de no borrado|hyperpage}{42}
+\indexentry{Codificaci\IeC {\'o}n superdensa|hyperpage}{42}
+\indexentry{Grupo|hyperpage}{45}
+\indexentry{Subgrupo|hyperpage}{45}
+\indexentry{El grupo aditivo $\mathbb{Z}_m$|hyperpage}{45}
+\indexentry{El grupo multiplicativo $\mathbb{Z}_m^*$|hyperpage}{45}
+\indexentry{Funci\IeC {\'o}n $\phi$ de Euler|hyperpage}{45}
+\indexentry{Isomorfismo de grupos|hyperpage}{45}
+\indexentry{Orden (grupo)|hyperpage}{45}
+\indexentry{Teorema Chino de los Restos|hyperpage}{45}
+\indexentry{Algoritmo de Euclides|hyperpage}{46}
+\indexentry{M\IeC {\'a}quina de Turing cl\IeC {\'a}sica determinista|hyperpage}{47}
+\indexentry{M\IeC {\'a}quina de Turing probabilista|hyperpage}{47}
+\indexentry{Hip\IeC {\'o}tesis de Church-Turing|hyperpage}{48}
+\indexentry{Principio de Church-Turing|hyperpage}{48}
+\indexentry{M\IeC {\'a}quina de Turing cu\IeC {\'a}ntica|hyperpage}{49}
+\indexentry{Simulaci\IeC {\'o}n circuital|hyperpage}{50}
+\indexentry{Clase $\BQP$|hyperpage}{51}
+\indexentry{Autovalor|hyperpage}{54}
+\indexentry{Autoestado|hyperpage}{54}
+\indexentry{Computaci\IeC {\'o}n Adiab\IeC {\'a}tica|hyperpage}{54}
+\indexentry{Optimizaci\IeC {\'o}n cu\IeC {\'a}ntica estoc\IeC {\'a}stica|hyperpage}{54}
+\indexentry{Temple cu\IeC {\'a}ntico.|hyperpage}{54}
+\indexentry{Hamiltoniano $k$-local|hyperpage}{55}
+\indexentry{C\IeC {\'o}mputo cu\IeC {\'a}ntico adiab\IeC {\'a}tico|hyperpage}{55}
+\indexentry{Teorema cu\IeC {\'a}ntico adiab\IeC {\'a}tico.|hyperpage}{55}

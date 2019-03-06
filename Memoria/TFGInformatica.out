@@ -13,39 +13,35 @@
 \BOOKMARK [1][-]{section.3.2}{Relacionando Factorizaci\363n con B\372squeda del Orden.}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.3}{M\351todo de las Fracciones Continuas}{chapter.3}% 14
 \BOOKMARK [1][-]{section.3.4}{Algoritmo Expl\355cito}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.5}{\277El Fin de RSA? La Criptograf\355a Postcu\341ntica}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.6}{Implementaci\363n del Algoritmo de Shor}{chapter.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Factorizaci\363n en Computaci\363n Cu\341ntica Adiab\341tica}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Computaci\363n Adiab\341tica en Resumen}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.2}{Reducci\363n de la Factorizaci\363n a un Problema de Optimizaci\363n}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.3}{Elecci\363n de los hamiltonianos inicial y final}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.4}{Resultados experimentales}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.5}{Simulando la Evoluci\363n Adiab\341tica con Circuitos}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.6}{Relacionando Ambos M\351todos}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.6.1}{Caracterizaci\363n de la Complejidad}{section.4.6}% 25
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y V\355as Futuras.}{}% 26
-\BOOKMARK [0][-]{section*.10}{Ap\351ndices}{}% 27
-\BOOKMARK [0][-]{Appendix.alph1.Alph1}{Ap\351ndice Postulados de la Mec\341nica Cu\341ntica}{}% 28
-\BOOKMARK [0][-]{Appendix.alph1.Alph2}{Ap\351ndice Aspectos de la Computaci\363n Cu\341ntica}{}% 29
-\BOOKMARK [1][-]{section.alph1.Alph2.1}{Circuitos Universales}{Appendix.alph1.Alph2}% 30
-\BOOKMARK [1][-]{section.alph1.Alph2.2}{Principio de No Clonaci\363n}{Appendix.alph1.Alph2}% 31
-\BOOKMARK [1][-]{section.alph1.Alph2.3}{Teleportaci\363n Cu\341ntica}{Appendix.alph1.Alph2}% 32
-\BOOKMARK [0][-]{Appendix.alph1.Alph3}{Ap\351ndice Resultados de Aritm\351tica Elemental}{}% 33
-\BOOKMARK [0][-]{Appendix.alph1.Alph4}{Ap\351ndice Complejidad cu\341ntica.}{}% 34
-\BOOKMARK [1][-]{section.alph1.Alph4.1}{Los modelos de computaci\363n de Turing}{Appendix.alph1.Alph4}% 35
-\BOOKMARK [1][-]{section.alph1.Alph4.2}{La hip\363tesis de Church-Turing}{Appendix.alph1.Alph4}% 36
-\BOOKMARK [1][-]{section.alph1.Alph4.3}{El computador cu\341ntico universal.}{Appendix.alph1.Alph4}% 37
-\BOOKMARK [1][-]{section.alph1.Alph4.4}{M\341quinas de Turing cu\341nticas y circuitos cu\341nticos.}{Appendix.alph1.Alph4}% 38
-\BOOKMARK [1][-]{section.alph1.Alph4.5}{Definiciones de la clase BQP.}{Appendix.alph1.Alph4}% 39
-\BOOKMARK [1][-]{section.alph1.Alph4.6}{Caracterizaci\363n de BQP}{Appendix.alph1.Alph4}% 40
-\BOOKMARK [0][-]{Appendix.alph1.Alph5}{Ap\351ndice Computaci\363n Cu\341ntica Adiab\341tica}{}% 41
-\BOOKMARK [1][-]{section.alph1.Alph5.1}{Evoluci\363n temporal de un sistema cu\341ntico}{Appendix.alph1.Alph5}% 42
-\BOOKMARK [1][-]{section.alph1.Alph5.2}{Autovalores y autoestados}{Appendix.alph1.Alph5}% 43
-\BOOKMARK [1][-]{section.alph1.Alph5.3}{El modelo de la AQC}{Appendix.alph1.Alph5}% 44
-\BOOKMARK [2][-]{subsection.alph1.Alph5.3.1}{Teoremas de la AQC}{section.alph1.Alph5.3}% 45
-\BOOKMARK [2][-]{subsection.alph1.Alph5.3.2}{Caracterizaci\363n de la complejidad}{section.alph1.Alph5.3}% 46
-\BOOKMARK [0][-]{Appendix.alph1.Alph6}{Ap\351ndice Ejemplo de Ejecuci\363n del Algoritmo de Shor}{}% 47
-\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{Bibliograf\355a}{}% 48
-\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{\315ndice alfab\351tico}{}% 49
-\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{\315ndice de figuras}{}% 50
-\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{\315ndice de algoritmos}{}% 51
+\BOOKMARK [1][-]{section.3.5}{Implementaci\363n del Algoritmo de Shor}{chapter.3}% 16
+\BOOKMARK [0][-]{chapter.4}{Factorizaci\363n en Computaci\363n Cu\341ntica Adiab\341tica}{}% 17
+\BOOKMARK [1][-]{section.4.1}{Computaci\363n Adiab\341tica en Resumen}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{Reducci\363n de la Factorizaci\363n a un Problema de Optimizaci\363n}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{Elecci\363n de los hamiltonianos inicial y final}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.4}{Resultados experimentales}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y V\355as Futuras.}{}% 22
+\BOOKMARK [0][-]{section*.10}{Ap\351ndices}{}% 23
+\BOOKMARK [0][-]{Appendix.alph1.Alph1}{Ap\351ndice Postulados de la Mec\341nica Cu\341ntica}{}% 24
+\BOOKMARK [0][-]{Appendix.alph1.Alph2}{Ap\351ndice Aspectos de la Computaci\363n Cu\341ntica}{}% 25
+\BOOKMARK [1][-]{section.alph1.Alph2.1}{Circuitos Universales}{Appendix.alph1.Alph2}% 26
+\BOOKMARK [1][-]{section.alph1.Alph2.2}{Principio de No Clonaci\363n}{Appendix.alph1.Alph2}% 27
+\BOOKMARK [1][-]{section.alph1.Alph2.3}{Teleportaci\363n Cu\341ntica}{Appendix.alph1.Alph2}% 28
+\BOOKMARK [0][-]{Appendix.alph1.Alph3}{Ap\351ndice Resultados de Aritm\351tica Elemental}{}% 29
+\BOOKMARK [0][-]{Appendix.alph1.Alph4}{Ap\351ndice Complejidad cu\341ntica.}{}% 30
+\BOOKMARK [1][-]{section.alph1.Alph4.1}{Los modelos de computaci\363n de Turing}{Appendix.alph1.Alph4}% 31
+\BOOKMARK [1][-]{section.alph1.Alph4.2}{La hip\363tesis de Church-Turing}{Appendix.alph1.Alph4}% 32
+\BOOKMARK [1][-]{section.alph1.Alph4.3}{El computador cu\341ntico universal.}{Appendix.alph1.Alph4}% 33
+\BOOKMARK [1][-]{section.alph1.Alph4.4}{M\341quinas de Turing cu\341nticas y circuitos cu\341nticos.}{Appendix.alph1.Alph4}% 34
+\BOOKMARK [1][-]{section.alph1.Alph4.5}{Definiciones de la clase BQP.}{Appendix.alph1.Alph4}% 35
+\BOOKMARK [1][-]{section.alph1.Alph4.6}{Caracterizaci\363n de BQP}{Appendix.alph1.Alph4}% 36
+\BOOKMARK [0][-]{Appendix.alph1.Alph5}{Ap\351ndice Computaci\363n Cu\341ntica Adiab\341tica}{}% 37
+\BOOKMARK [1][-]{section.alph1.Alph5.1}{Evoluci\363n temporal de un sistema cu\341ntico}{Appendix.alph1.Alph5}% 38
+\BOOKMARK [1][-]{section.alph1.Alph5.2}{Autovalores y autoestados}{Appendix.alph1.Alph5}% 39
+\BOOKMARK [1][-]{section.alph1.Alph5.3}{El modelo de la AQC}{Appendix.alph1.Alph5}% 40
+\BOOKMARK [2][-]{subsection.alph1.Alph5.3.1}{Teoremas de la AQC}{section.alph1.Alph5.3}% 41
+\BOOKMARK [2][-]{subsection.alph1.Alph5.3.2}{Caracterizaci\363n de la complejidad}{section.alph1.Alph5.3}% 42
+\BOOKMARK [0][-]{Appendix.alph1.Alph6}{Ap\351ndice Ejemplo de Ejecuci\363n del Algoritmo de Shor}{}% 43
+\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{Bibliograf\355a}{}% 44
+\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{\315ndice alfab\351tico}{}% 45
+\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{\315ndice de figuras}{}% 46
+\BOOKMARK [0][-]{equation.alph1.Alph6.0.4}{\315ndice de algoritmos}{}% 47
