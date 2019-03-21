@@ -108,8 +108,8 @@ def factor(N, T=100000): # Integer to factor
         print(energies[-1])
 
     def plotThings(res,t):
-        #my_xticks = ["({},{})".format(i//2**(dim//2),i%2**(dim//2) ) for i in range(2**dim)]
-        #plt.xticks(range(2**dim), my_xticks)
+        my_xticks = ["({},{})".format(i//2**(dim//2),i%2**(dim//2) ) for i in range(2**dim)]
+        plt.xticks(range(2**dim), my_xticks)
         plt.plot(range(2**dim), [np.abs(x) for x in res],'bo')
         plt.savefig("N={},T={}.eps".format(N,T))
         plt.show()
