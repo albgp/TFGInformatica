@@ -130,6 +130,6 @@ def factor(N, T=100000): # Integer to factor
 for T in [100]:
     N=3
     x,y=factor(N,T=T)
-    assert x*y==N #So we check that our algorithm calculated the correct divisors for N
+    assert x*y==N #So we check that our algorithm calculated the right divisors for N
     print("Worked! {}={}x{}".format(N,x,y))
     print()
