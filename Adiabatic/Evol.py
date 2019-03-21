@@ -127,7 +127,7 @@ def factor(N, T=100000): # Integer to factor
 
     return x,y #We return both divisors.
 
-for T in [10000]:
+for T in [100]:
     N=3
     x,y=factor(N,T=T)
     assert x*y==N #So we check that our algorithm calculated the correct divisors for N
