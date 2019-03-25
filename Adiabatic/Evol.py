@@ -1,3 +1,7 @@
+__author__="Aberto García"
+__license__ = "GPL"
+__email__ = "alberto.garcia12@um.es"
+
 import numpy as np
 import matplotlib.pyplot as plt
 from odeintw import odeintw # This library is downloaded from https://github.com/WarrenWeckesser/odeintw
