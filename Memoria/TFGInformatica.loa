@@ -1,5 +1,0 @@
-\contentsline {algorithm}{\numberline {1}{\ignorespaces Algoritmo para exponenciaci\IeC {\'o}n modular\relax }}{21}{algorithm.1}
-\contentsline {algorithm}{\numberline {2}{\ignorespaces Algoritmo para hallar el periodo $r$ de un elemento $a$ en $\mathbb {Z}^*_n$ usando la QFT.\relax }}{24}{algorithm.2}
-\contentsline {algorithm}{\numberline {3}{\ignorespaces Algoritmo para hallar el periodo $r$ basado en el m\IeC {\'e}todo de las fracciones continuas y el lema \ref {eqFraccionesContinuas}.\relax }}{27}{algorithm.3}
-\contentsline {algorithm}{\numberline {4}{\ignorespaces Algoritmo para hallar la factorizaci\IeC {\'o}n prima basado en Shor\relax }}{28}{algorithm.4}
-\contentsline {algorithm}{\numberline {5}{\ignorespaces Algoritmo de Euclides\relax }}{46}{algorithm.5}
